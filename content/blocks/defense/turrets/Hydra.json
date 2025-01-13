@@ -1,0 +1,69 @@
+{
+  "type": "ItemTurret",
+  "name": "Hydra",
+  "description": "Shoots homing missiles to enemy targets",
+  "health": 260,
+  "reload": 40,
+  "coolantMultiplier":3,
+  "range": 160,
+  "size": 1,
+  "shootY": 10,
+  "shootSound": "missile",
+  "shootEffect": "shootSmall",
+  "ammoPerShot": "1",
+  "rotateSpeed": "4.5",
+  "consumes": {
+      "coolant": {
+          "amount": 0.1
+      }
+  },
+  "researchCostMultiplier": 1,
+  "inaccuracy": 1,
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+      "pyratite":{
+          "type": "MissileBulletType",
+          "height": 12,
+          "width": 8,
+	  "collideTerrain":"true",
+          "inaccuracy":1,
+          "damage":5,
+          "speed": 4,
+          "lifetime": 42
+          "hitSize": 10,
+          "pierce": false,
+	  "frontColor":"f8ad42",
+	  "backColor":"f68021",
+	  "splashDamageRadius":20,
+	  "splashDamage":25,
+	  "ammoMultiplier":2,
+	  "status":"burning",
+      },
+          "blast-compound":{
+          "type": "BasicBulletType",
+          "height": 12,
+          "width": 8,
+          "inaccuracy":1,
+	  "collideFloor":"true",
+          "damage":10,
+          "speed": 4,
+          "lifetime": 42
+          "hitSize": 10,
+          "pierce": false,
+	  "splashDamageRadius":30,
+	  "splashDamage":30,
+	  "ammoMultiplier":2,
+	  "status":"blasted",
+      },
+      }
+  "requirements":[{
+      "item": "copper",
+      "amount": 40
+    },{
+      "item": "silicon",
+      "amount": 15
+    }],
+  "category": "turret",
+  "research":"hail"
+}

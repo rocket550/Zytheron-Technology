@@ -1,0 +1,21 @@
+{
+ "name":"Micro Chip",
+ "description": "Runs instructions at very slow speed. Can be used for controlling units and buildings
+ "size":1,
+ "category":"logic",
+ "type":"LogicBlock",
+ "health":40,
+ "research":"mechanical-drill"
+ "range":40,
+ "instructionsPerTick":1,
+ "maxInstructionsPerTick":1,
+ "maxInstructionScale":1,
+ "hasShadow":false,
+ "requirements":[{
+      "item": "copper",
+      "amount": 45
+  },{
+      "item": "lead",
+      "amount": 35
+    }]
+}

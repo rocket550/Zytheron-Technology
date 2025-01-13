@@ -1,0 +1,45 @@
+{
+  "name":"Aluminium Smelter",
+  "type": "GenericCrafter",
+  "description":"Smelts bauxite into aluminium",
+  "size":2,
+  "category": "crafting",
+  "research": "pulverizer",
+  "hasLiquids":true,
+  "hasItems":true,
+  "craftEffect":"smeltsmoke",
+  "requirements": [
+     "copper/60",
+     "graphite/40",
+  ],
+  "consumes": {
+    "power":0.6666666666666667,
+    "items": {
+      "items": [
+        "1bauxite/2"  
+      ]
+    }
+  "liquids":[
+  {
+      "liquid": "water",
+      "amount": 0.1
+  }
+  ]
+}
+  "craftTime":80,
+  "outputItem": {
+     "item": "2aluminium",
+     "amount": 1
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame"
+      },
+    ]
+  }
+}

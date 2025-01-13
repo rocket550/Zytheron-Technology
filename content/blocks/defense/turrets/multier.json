@@ -1,0 +1,82 @@
+   {
+  "type": "ItemTurret",
+  "name": "Multier",
+  "description": "Shoots large amounts of fire to enemy targets ",
+  "health": 1325,
+  "reload": 3,
+  "coolantMultiplier":1,
+  "range": 216,
+  "size": 3,
+  "recoil":3,
+  "recoilTime":28,
+  "consumes": { 
+    "coolant": { 
+       "amount": 0.3
+    }
+  },
+  "researchCostMultiplier": 1,
+  "inaccuracy": 3,
+  "targetAir": false,
+  "targetGround": true,
+      "shoot": {
+        "shots":1,
+        "shotDelay":6,
+      },
+
+  "ammoTypes": {
+      "silicon":{
+          "type": "BasicBulletType",
+          "height": 12,
+          "width": 8,
+          "inaccuracy":7,
+          "damage":5,
+          "speed": 5,
+	  "knockback":0.3,
+          "lifetime": 45,
+          "hitSize": 10,
+          "pierce": false,
+	  "ammoMultiplier":2,
+      },
+          "thorium":{
+          "type": "BasicBulletType",
+          "height": 8,
+          "width": 6,
+          "inaccuracy":7,
+          "damage":15,
+          "reloadMultiplier":0.8,
+          "speed": 5,
+          "lifetime": 45,
+          "hitSize": 10,
+          "pierce": false,
+	  "ammoMultiplier":2,
+      },
+          "blast-compound":{
+          "type": "BasicBulletType",
+          "height": 8,
+          "width": 6,
+	  "homingDelay": 8,
+          	"homingPower": 0.05,
+          	"homingRange": 12, 
+          "inaccuracy":7,
+          "damage":12,
+          "speed": 7,
+          "lifetime": 45,
+          "hitSize": 10,
+          "pierce": false,
+	  "ammoMultiplier":3,
+      }}
+  "requirements":[{
+      "item": "copper",
+      "amount": 100
+    },{
+      "item": "silicon",
+      "amount": 75
+    },{
+      "item": "thorium",
+      "amount": 50
+    }],
+
+  "category": "turret",
+  "research":"extent"
+
+}

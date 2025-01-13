@@ -1,0 +1,15 @@
+{
+ "name":"Asphalt Road",
+ "type":"conveyor",
+ "itemCapacity":0,
+ "solid":false,
+ "size":1,
+ "category":"units",
+ "requirements":[
+ {
+     "item":"Asphalt",
+     "amount":"4"
+ },
+ ]
+"underBullets":true,
+}

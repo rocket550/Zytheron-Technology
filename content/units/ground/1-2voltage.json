@@ -1,0 +1,71 @@
+{
+  "type": "tank",
+  "name": "Voltage",
+  "description": "Its an electric tank that shoots arcs to enemy targets",
+  "speed": 0.68,
+  "squareShape": true,
+  "hitSize":12,
+  "health":620,
+  "armor":6,
+  "itemCapacity":40,
+  "range":168,
+  "ammoType":"copper",
+  "ammoCapacity":48,
+  "maxRange":168,
+  "singleTarget":true,
+  "omniMovement":false,
+  "faceTarget":false,
+  "rotateSpeed": 2.6
+  "treadRects": [
+    {
+      "x": 7,
+      "y": -26,
+      "width": 14,
+      "height": 51
+    }
+  ],
+
+  "weapons":[{
+      "name": "voltage-turret",
+      "x":0,
+      "y":0,
+      "reload":16,
+      "rotateSpeed":2.2,
+      "shootSound":"shoot",
+      "shootX":0,
+      "shootY":4,
+      "rotate":true,
+      "mirror":false,
+      "recoil":1,
+      "shake":0.5,
+      "shoot":{
+      "type":"ShootBarrel",
+      "barrels":[
+        1,4,0,
+        -1,4,0,
+      ],
+      "shots":1,
+  },
+      "bullet": {
+          "type": "BasicBulletType",
+          "collides":true,
+          "collidesAir":true,
+          "collidesTiles":true,
+	  "width":6,
+	  "height":10,
+	  "speed":3,
+	  "lifetime":60,
+          "range":168,
+          "maxRange":168,
+          "damage":10,
+	  "lightningLength":9,
+	  "lightning":1,
+	  "lightningDamage":6,
+	  "lightningAngle":0,
+	  "lightningColor":a9d8ff,
+          "buildingDamageMultiplier": 1,
+	  "status":"shocked",
+      }
+  }],
+  "research": "1-1electron"
+}

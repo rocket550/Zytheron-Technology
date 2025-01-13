@@ -1,0 +1,46 @@
+{
+  "type": "LiquidTurret",
+  "name": "Zeplyn",
+  "description":"Pushes enemys with steam",
+  "health":1000,
+  "reload":2.5,
+  "coolantMultiplier":4,
+  "range": 176,
+  "size": 2,
+  "shootSound":"wind3",
+  "shootEffect":"shootLiquid",
+  "ammoPerShot": "3",
+  "rotateSpeed":"4.5",
+  "researchCostMultiplier": 1,
+  "inaccuracy":5,
+  "targetAir":true,
+  "targetGround":true,
+  "ammoTypes":{
+      "steam":{
+          "type":"LiquidBulletType",
+	  "liquid":"steam",
+	  "orbSize":7,
+	  "boilTime":52,
+	  "puddleSize":0,
+          "inaccuracy":2,
+          "damage":2,
+          "speed":2.5,
+	  "knockback":3,
+          "lifetime":52,
+          "hitSize":10,
+          "pierce":false,
+	  "ammoMultiplier":2,
+      }}
+  "requirements":[{
+      "item":"copper",
+      "amount":100
+    },{
+      "item":"silicon",
+      "amount":15
+    },{
+      "item":"metaglass",
+      "amount":30
+    }],
+  "category":"turret",
+  "research":"extent"
+}

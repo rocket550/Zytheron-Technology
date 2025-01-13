@@ -1,0 +1,87 @@
+{
+localizedName: "Zytheron"
+description: "Its a green planet with big seas and oceans"
+alwaysUnlocked: true
+mesh: [{
+    //grass
+    type: "RiverNoise"
+    planet: "zytheron"
+    divisions: 6
+    seed: 0
+    radius: 1
+    color1: "40ff20"
+    color2: "00a000"
+    octaves: 5
+    persistence: 0.8
+  },
+  {
+    //stone
+    type: "NoiseMesh"
+    planet: "zytheron"
+    divisions: 5
+    seed: 0
+    radius: 1
+    color1: "424242"
+    color2: "2b2b2b"
+    octaves: 5
+    persistence: 1.1
+  },
+  {
+    //water
+    type: "NoiseMesh"
+    planet: "zytheron"
+    divisions: 2
+    seed: 0
+    radius: 1.2
+    color1: "00e0ff"
+    color2: "0060ff"
+    octaves: 0
+    persistence: 1.1
+}]
+//cloudMesh: {}
+startSector: 0
+generator: {
+  type: "PlanetGenerator"
+  octaves: 3
+  persistence: 0.5
+  scale: 12
+  mag: 0.7
+  thresh: 1.1
+  min: 150
+  max: 250
+  radMin: 300
+  radMax: 1400
+  iceChance: 0
+  carbonChance: 0.5
+  berylChance: 0
+  ferricChance: 0
+}
+sectorSize: 1
+orbitSpacing: 4
+radius: 2
+minZoom: 0.5
+allowLaunchSchematics: true
+allowLaunchLoadout: true
+drawOrbit: true
+atmosphereRadIn: 1
+atmosphereRadOut: 4
+prebuildBase: false
+accessible: true
+updateLighting: true
+sectorSeed: 6
+bloom: false
+visible: true
+atmosphereColor: "00d0ff"
+iconColor: "0088ff"
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+defaultCore: "core-shard"
+parent: "sun"
+solarSystem: "sun"
+launchCandidates: []
+//No erekir
+hiddenItems: ["beryllium", "carbide", "tungsten", "fissile-matter", "oxide"]
+allowLaunchToNumbered: true
+}

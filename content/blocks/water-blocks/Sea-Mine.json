@@ -1,0 +1,39 @@
+{
+ "name":"Sea Mine",
+ "description": "Explodes when a enemy unit pass over it
+ "size":1,
+ "category":"effect",
+ "type":"shockMine",
+ "health":80,
+ "damage":0,
+ "length":0,
+ "shots":1,
+ "tileDamage":100,
+ "hasShadow":false,
+ "research":"mechanical-pump"
+ "bullet": {
+      "collides": false,
+      "collidesTiles": false,
+      "hitSound": "explosion",
+      "range": 80,
+      "speed":0,
+      "splashDamageRadius":22,
+      "instantDisappear":true,
+      "splashDamage":50,
+      "hittable":false,
+      "collidesAir":false,
+      "damage":300,
+      "pierce":true,
+      "pierceBuilding":true,
+      "shootEffect":"none",
+      "splashDamagePierce":true,
+    }
+
+ "requirements":[{
+      "item": "metaglass",
+      "amount": 16
+  },{
+      "item": "silicon",
+      "amount": 20
+    }]
+}

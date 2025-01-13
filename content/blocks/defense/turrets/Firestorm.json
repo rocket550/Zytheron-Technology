@@ -1,0 +1,79 @@
+{
+  "type": "ItemTurret",
+  "name": "Firestorm",
+  "description": "Shoots large amounts of fire to enemy targets",
+  "health": 1000,
+  "reload": 6,
+  "coolantMultiplier":1,
+  "range":120,
+  "size": 3,
+  "consumes": { 
+    "coolant": { 
+       "amount": 0.3
+    }
+  },
+  "researchCostMultiplier": 1,
+  "inaccuracy": 4,
+  "targetAir": false,
+  "targetGround": true,
+  "ammoTypes": {
+      "coal": {
+        "type": "fireBulletType",
+        "collides": true,
+        "collidesAir" : false,
+        "collidesTiles" : true,
+        "fireTrailChance" : 0,
+        "speed": 1,
+        "lifetime": 100,
+        "damage": 15,
+        "pierce": true,
+        "pierceBuilding": true,
+        "shootEffect": "shootSmall",
+        "colorFrom":"e79a31",
+        "colorMid":"e56910",
+        "colorTo":"55555599",
+        "fireEffectChance":0.05,
+        "fireEffectChance2":0.05,
+        "velMin":4.4,
+        "velMax":4.8,
+        "ammoMultiplier":3,
+        "status": "burning",
+        "statusDuration": 300
+	}
+
+      "pyratite": {
+        "type": "fireBulletType",
+        "collides": true,
+        "collidesAir" : false,
+        "collidesTiles" : true,
+        "fireTrailChance" : 0,
+        "speed": 1,
+        "lifetime": 100,
+        "damage": 40,
+        "pierce": true,
+        "pierceBuilding": true,
+        "shootEffect": "shootSmall",
+        "colorFrom":"e79a31",
+        "colorMid":"e56910",
+        "colorTo":"666633aa",
+        "fireEffectChance":0.1,
+        "fireEffectChance2":0.1,
+        "velMin":4.4,
+        "velMax":4.8,
+        "ammoMultiplier":3,
+        "status": "melting",
+        "statusDuration": 300
+    }}
+  "requirements":[{
+      "item": "copper",
+      "amount": 310
+    },{
+      "item": "lead",
+      "amount": 310
+    },{
+      "item": "silicon",
+      "amount": 150
+    }],
+  "category": "turret",
+  "research":"scorch"
+}

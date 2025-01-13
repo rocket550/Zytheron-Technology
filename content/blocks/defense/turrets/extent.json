@@ -1,0 +1,81 @@
+{
+  "type": "ItemTurret",
+  "name": "Extent",
+  "description": "Shoots fragments ammunition to enemy targets",
+  "health": 940,
+  "reload": 75,
+  "coolantMultiplier":4,
+  "range": 176,
+  "size": 2,
+  "shootSound": "shootBig",
+  "shootEffect": "shootBig",
+  "ammoPerShot": "3",
+  "rotateSpeed": "4.5",
+  "consumes": {
+      "coolant": {
+          "amount": 0.2
+      }
+  },
+  "researchCostMultiplier": 1,
+  "inaccuracy": 1,
+  "targetAir": true,
+  "targetGround": true,
+  "shoot":{
+      "shots": 24,
+      "shootDelay":0.6
+  },
+  "ammoTypes": {
+      "scrap":{
+          "type": "BasicBulletType",
+          "height": 12,
+          "width": 8,
+          "inaccuracy":7,
+          "damage":5,
+          "speed": 5,
+	  "knockback":0.3,
+          "lifetime": 36,
+          "hitSize": 10,
+          "pierce": false,
+	  "ammoMultiplier":2,
+      },
+          "graphite":{
+          "type": "BasicBulletType",
+          "height": 8,
+          "width": 6,
+          "inaccuracy":7,
+          "damage":15,
+          "reloadMultiplier":0.8,
+          "speed": 5,
+          "lifetime": 36,
+          "hitSize": 10,
+          "pierce": false,
+	  "ammoMultiplier":2,
+      },
+          "silicon":{
+          "type": "BasicBulletType",
+          "height": 8,
+          "width": 6,
+	  "homingDelay": 8,
+          	"homingPower": 0.05,
+          	"homingRange": 12, 
+          "inaccuracy":7,
+          "damage":12,
+          "speed": 7,
+          "lifetime": 28,
+          "hitSize": 10,
+          "pierce": false,
+	  "ammoMultiplier":3,
+      }}
+  "requirements":[{
+      "item": "copper",
+      "amount": 100
+    },{
+      "item": "lead",
+      "amount": 75
+    },{
+      "item": "graphite",
+      "amount": 50
+    }],
+  "category": "turret",
+  "research":"scatter"
+}

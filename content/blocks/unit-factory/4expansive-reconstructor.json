@@ -1,0 +1,27 @@
+{
+    "type":"Reconstructor",
+    "name":"Expansive Reconstructor",
+    "description":"Upgrades basic units to tier 2",
+    "health":360,
+    "size":5,
+    "constructTime":2100,
+    "upgrades": [
+        ["1-2voltage","1-3amperium"]
+    ],
+    "consumes": {
+        "power":6,
+        "items":{
+            "items":[
+		"silicon/40"
+		"2aluminium/40",
+            ]
+        }
+    },
+    "requirements":[
+	"copper/160",
+	"silicon/100",
+	"2aluminium/100",
+    ],
+    "category":"units",
+    "research":"1multi-factory"
+}

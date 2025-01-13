@@ -1,0 +1,37 @@
+{
+ "name":"Logic-Radar",
+ "description": "Runs instructions at very slow speed. Can be used for controlling units and buildings
+ "size":1,
+ "category":"logic",
+ "type":"LogicBlock",
+ "health":40,
+ "research":"mechanical-drill"
+ "range":272,
+ "instructionsPerTick":1,
+ "maxInstructionsPerTick":1,
+ "maxInstructionScale":1,
+ "hasShadow":false,
+
+ "requirements":[{
+      "item": "copper",
+      "amount": 45
+  },{
+      "item": "lead",
+      "amount": 35
+    }]
+
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-rot",
+        "spinSprite": true,
+        "rotateSpeed": 0.8
+      }
+  ]
+}
+}

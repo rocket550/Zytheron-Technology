@@ -1,0 +1,27 @@
+{
+ "name":"Surge Alloy Conveyor",
+ "description":"Transports items using energy",
+ "size":1,
+ "category":"distribution",
+ "type":"conveyor",
+ "itemCapacity":15,
+ "speed":5,
+ "health":120,
+ "hasPower":"true",
+ "consumesPower":"true",
+ "conductivePower":"true",
+ "underBullets":"true",
+ "consumePower":0.0166666666666667,
+ "research":"plastanium-conveyor"
+ "requirements":[{
+      "item": "graphite",
+      "amount": 1
+  },{
+      "item": "surge-alloy",
+      "amount": 1
+  },{
+      "item": "silicon",
+      "amount": 1
+    }]
+
+}

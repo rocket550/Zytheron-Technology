@@ -1,0 +1,17 @@
+{
+ "type":"Wall",
+ "name":"Liquid Platform",
+ "category":"units",
+ "description":"Is a platform that you can place above water for units to pass over it",
+ "health":360,
+ "size":3,
+ "underBullets":true,
+ "solid": false,
+ "placeableLiquid":true,
+ "hasShadow":false,
+ "requirements":[
+  "silicon/24"
+  "2aluminium/24"
+  ],
+ "research":"micro-chip",
+}

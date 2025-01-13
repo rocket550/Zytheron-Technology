@@ -1,0 +1,19 @@
+{"name":"Explosive Naval Facility",
+"plans":[{"unit": "1droid",
+      "requirements":[
+        "silicon/12",
+        "coal/14",
+      ],
+    "time": 600}],
+    "configurable":"false",
+    "description":"Build explosive boats with recources",
+    "size":2,
+    "category":"units",
+    "requirements":
+        [{"item":"silicon","amount":"45"},{"item":"graphite","amount":"30"}],
+    "consumes":{
+        "power":0.8},
+    "type":"UnitFactory"
+    "health":200
+"research": "ground-factory"
+}

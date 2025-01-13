@@ -1,0 +1,9 @@
+{   name:"Broken",
+    "description":"Makes the units walk reversed because they are broken",
+    "alwaysUnlocked": false,
+    "hideDetails":false,
+    "show":true,
+    "speedMultiplier":-1,
+    "reloadMultiplier":0.7,
+    "buildSpeedMultiplier":0.5,
+}

@@ -1,0 +1,60 @@
+{
+  "type":"tank",
+  "name":"Smeg",
+  "description":"Its a small tank for defense that is inside a wall",
+  "speed":1.2,
+  "squareShape":"true",
+  "hitSize":6,
+  "health":170,
+  "useUnitCap":"false",
+  "treadPullOffset":1,
+  "armor":48,
+  "itemCapacity":0,
+  "range":128,
+  "ammoType":"copper",
+  "ammoCapacity":16,
+  "maxRange":128,
+  "singleTarget":true,
+  "omniMovement":false,
+  "faceTarget":false,
+  "rotateSpeed": 3.6
+  "treadRects":[
+    {
+      "x":6,
+      "y":-16.5,
+      "width":9,
+      "height":33,
+    }
+  ],
+
+  "weapons":[{
+      "name": "smeg-turret",
+      "x": 0,
+      "y": 0,
+      "reload":90,
+      "rotateSpeed":3.8,
+      "shootSound":"pew",
+      "shootX": 0,
+      "shootY": 4,
+      "rotate": true,
+      "mirror": false,
+      "recoil":0.8,
+      "bullet":{
+          "type":"BasicBulletType",
+          "collides":"true",
+          "collidesAir":"true",
+          "collidesTiles":"true",
+          "range":128,
+          "maxRange":128,
+          "damage":26,
+	  "width":10,
+	  "height":14,
+	  "speed":3,
+	  "lifetime":43,
+          "buildingDamageMultiplier":0.25,
+          "shootEffect":"shootSmall",
+     }
+    }
+  ],
+  "research":"hidden-tank-wall"
+}

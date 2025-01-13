@@ -1,0 +1,59 @@
+{
+  "type": "tank",
+  "name": "Electron",
+  "description": "Its an electric tank that shoots electric arcs to enemy targets",
+  "speed": 0.8,
+  "squareShape": true,
+  "hitSize":8,
+  "health":180,
+  "treadPullOffset":1,
+  "armor":3,
+  "rotateSpeed":5.8,
+  "itemCapacity":20,
+  "range":96,
+  "ammoType":"titanium",
+  "ammoCapacity":30,
+  "maxRange":96,
+  "singleTarget":true,
+  "omniMovement":false,
+  "faceTarget":false,
+  "rotateSpeed": 3.6
+  "treadRects": [
+    {
+      "x":7,
+      "y":-19,
+      "width":14,
+      "height":38,
+    }
+  ],
+
+  "weapons":[{
+      "name": "electron-turret",
+      "x": 0,
+      "y": 0,
+      "reload": 40,
+      "rotateSpeed":4.2,
+      "shootSound":"spark",
+      "shootX": 0,
+      "shootY": 4,
+      "rotate": true,
+      "mirror": false,
+      "recoil": 1.2,
+      "shake":1,
+      "bullet": {
+          "type": "LightningBulletType",
+          "collides": true,
+          "collidesAir" : true,
+          "collidesTiles" : true,
+          "range":96,
+          "maxRange":96,
+          "damage": 22,
+          "pierce": true,
+	  "lightningLength":21,
+          "buildingDamageMultiplier": 1,
+          "shootEffect":"lightningShoot",
+	  "status":"shocked",
+      }
+  }],
+  "research": "2multi-factory"
+}

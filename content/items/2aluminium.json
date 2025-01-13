@@ -1,0 +1,11 @@
+{
+  "name":"Aluminium",
+  "description":"Its a heavy material used for unit creation and ammunition",
+  "flammability":0,
+  "radioactivity":0,
+  "explosiveness":0,
+  "charge":0,
+  "color":"949494"
+  "research": {
+    "parent": "surge-alloy"}
+}

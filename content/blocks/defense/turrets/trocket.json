@@ -1,0 +1,70 @@
+{
+  "type": "ItemTurret",
+  "name": "Trocket",
+  "description": "Shoots homing missiles to enemy targets",
+  "health": 260,
+  "reload": 48,
+  "coolantMultiplier":2.6,
+  "range": 160,
+  "size": 1,
+  "shootSound": "missile",
+  "shootEffect": "shootSmall",
+  "ammoPerShot": "1",
+  "rotateSpeed": "4.5",
+  "consumes": {
+      "coolant": {
+          "amount": 0.1
+      }
+  },
+  "researchCostMultiplier": 1,
+  "inaccuracy": 8,
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+      "pyratite":{
+          "type": "MissileBulletType",
+          "height": 12,
+          "width": 8,
+          "inaccuracy":0,
+          "damage":5,
+          "speed": 4,
+          "lifetime": 42
+          "hitSize": 10,
+          "pierce": false,
+	  "frontColor":"f8ad42",
+	  "backColor":"f68021",
+	  "splashDamageRadius":20,
+	  "splashDamage":25,
+	  "ammoMultiplier":2,
+          "weaveMag":3,
+          "weaveScale":3,
+	  "status":"burning",
+      },
+          "blast-compound":{
+          "type": "MissileBulletType",
+          "height": 12,
+          "width": 8,
+          "inaccuracy":0,
+          "damage":10,
+          "speed": 4,
+          "lifetime": 42
+          "hitSize": 10,
+          "pierce": false,
+	  "splashDamageRadius":30,
+	  "splashDamage":30,
+	  "ammoMultiplier":2,
+          "weaveMag":3,
+          "weaveScale":3,
+	  "status":"blasted",
+      },
+      }
+  "requirements":[{
+      "item": "copper",
+      "amount":40
+    },{
+      "item": "silicon",
+      "amount":26
+    }],
+  "category": "turret",
+  "research":"hail"
+}

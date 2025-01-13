@@ -1,0 +1,12 @@
+{
+  "name":"Steam",
+  "description":"Its compressed air",
+  "gasColor": ffffff40,
+  "color": ffffff40,
+  "gas":"true",
+  "viscosity":0,
+  "temperature": 0.6,
+  "effect":"wet",
+  "research": {
+    "parent": "Compressed-Air"}
+}

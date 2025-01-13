@@ -1,0 +1,21 @@
+{
+ "type":"Wall",
+ "name":"Hidden Tank Wall",
+ "category":"defense",
+ "description":"Is a wall that has a tank inside",
+ "health":1850,
+ "size":2,
+ "requirements":[
+  "silicon/24"
+  "2aluminium/24"
+  ],
+ "research":"micro-chip",
+  "destroyBullet":{
+      "splashDamage":0,
+      "height":0,
+      "width":0,
+      "lifetime":0,
+           "spawnUnit":"smeg",
+}
+"destroyBulletSameTeam":true,
+}
