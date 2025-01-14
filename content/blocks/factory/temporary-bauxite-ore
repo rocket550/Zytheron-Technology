@@ -1,0 +1,31 @@
+{
+  "name":"temporary-bauxite-ore",
+  "type": "GenericCrafter",
+  "description":"Gives you bauxite because the ore isnt working",
+  "size":2,
+  "category": "crafting",
+  "research": "pulverizer",
+  "hasLiquids":true,
+  "hasItems":true,
+  "craftEffect":"smeltsmoke",
+  "requirements":[
+     "copper/60",
+     "graphite/40",
+  ],
+  "craftTime":30,
+  "outputItem": {
+     "item": "1bauxite",
+     "amount": 1
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame"
+      },
+    ]
+  }
+}
