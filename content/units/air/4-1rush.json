@@ -3,7 +3,7 @@
   "name":"Rush",
   "description":"Its an air unit that when accelerates shoots lithning to enemy targets",
   "flying":true,
-  "speed":3.75,
+  "speed":5.625,
   "hitSize":9,
   "health":80,
   "armor":0,
