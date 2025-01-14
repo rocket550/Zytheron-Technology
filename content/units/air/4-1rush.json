@@ -23,6 +23,8 @@
       "length":18,
       "minSpeed":0.8,
       "heatRegion":"coso",   
+    }
+  ]
   "weapons":[{
       "name":"stemp-missile",
       "x": 3,
