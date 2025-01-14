@@ -1,7 +1,7 @@
 {
-  "name":"temporary-bauxite-ore",
-  "type": "GenericCrafter",
-  "description":"Gives you bauxite because the ore isnt working",
+  "name":"temporary-steam",
+  "type":"GenericCrafter",
+  "description":"Gives you water because i didnt finish the steam cauldron",
   "size":2,
   "category": "crafting",
   "research": "pulverizer",
@@ -13,7 +13,7 @@
   ],
   "craftTime":30,
   "outputLiquid": {
-     "item": "steam",
+     "liquid":"steam",
      "amount":1
   },
   "drawer": {
