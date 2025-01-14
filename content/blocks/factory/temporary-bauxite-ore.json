@@ -5,7 +5,6 @@
   "size":2,
   "category": "crafting",
   "research": "pulverizer",
-  "hasLiquids":true,
   "hasItems":true,
   "craftEffect":"smeltsmoke",
   "requirements":[
