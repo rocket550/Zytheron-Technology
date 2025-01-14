@@ -15,6 +15,16 @@
   "ammoType":"silicon",
   "ammoCapacity":30,
   "maxRange":144,
+  "abilities": [
+    {
+      "type":"MoveLightningAbility",
+      "damage":10,
+      "chance":0.15,
+      "length":9
+
+
+
+      
   "weapons":[{
       "name":"stemp-missile",
       "x": 3,
