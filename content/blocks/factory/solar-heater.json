@@ -1,0 +1,15 @@
+{
+ "type":"HeatProducer",
+ "name":"Solar Heater",
+ "category":"crafting",
+ "description":"Redirects heat from teh sun",
+ "health":40,
+ "size":1,
+ "heatOutput":1,
+ "requirements":[
+  "2aluminium/10"
+  "metaglass/5"
+  ],
+ "research":"micro-chip",
+
+}
