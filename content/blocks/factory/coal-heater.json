@@ -1,7 +1,7 @@
 {
  "type":"HeatProducer",
  "name":"Coal Heater",
- "category":"crafter",
+ "category":"crafting",
  "description":"Is a wall that has a tank inside",
  "health":40,
  "size":1,
