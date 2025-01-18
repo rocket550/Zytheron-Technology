@@ -21,9 +21,9 @@
       "type":"MoveLightningAbility",
       "damage":10,
       "chance":0.15,
-      "length":18,
-      "minSpeed":8,
-      "maxSpeed":10,
+      "length":12,
+      "minSpeed":6,
+      "maxSpeed":8,
       "heatRegion":"coso",   
     }
   ]
