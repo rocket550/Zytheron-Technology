@@ -1,6 +1,6 @@
 {
   "type":"flying",
-  "name":"Shockblade",
+  "name":"Thunder",
   "description":"Its an air unit that when accelerates shoots lithning to enemy targets",
   "flying":true,
   "speed":5.625,
@@ -9,7 +9,7 @@
   "armor":0,
   "accel":0.03,
   "drag":0.01,
-  "rotateSpeed":0.7,
+  "rotateSpeed":2,
   "itemCapacity":10,
   "range":144,
   "lowAltitude":"true",
