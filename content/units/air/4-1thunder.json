@@ -22,40 +22,10 @@
       "damage":10,
       "chance":0.15,
       "length":12,
-      "minSpeed":6,
-      "maxSpeed":8,
+      "minSpeed":5,
+      "maxSpeed":7,
       "heatRegion":"coso",   
     }
   ]
-  "weapons":[{
-      "name":"stemp-missile",
-      "x": 3,
-      "y": -1,
-      "reload":35,
-      "shootSound":"missile",
-      "shootX": 0,
-      "shootY": 4,
-      "rotate": false,
-      "mirror": true,
-      "recoil": 1.2,
-      "bullet": {
-          "type":"missileBulletType",
-          "collides":true,
-          "collidesAir":true,
-          "collidesTiles":true,
-          "range":144,
-          "maxRange":144,
-          "speed":3,
-          "lifetime":50,
-          "damage":11,
-          "pierce":false,
-          "buildingDamageMultiplier":1,
-          "shootEffect": "shootSmall",
-          "width":8,
-          "height":15,
-          "weaveMag":3,
-          "weaveScale":3,
-      }
-  }],
   "research":"2multi-factory"
 }
