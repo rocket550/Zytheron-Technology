@@ -1,33 +1,27 @@
 {"name":"Attack Factory",
-"plans":[{"unit":"3-1oxtron",
-      "requirements":[
-        "silicon/30",
-        "metaglass/35",
-      ],
-    "time":3600},
-    {"unit":"stemp",
-      "requirements":[
-        "silicon/20",
-        "graphite/16",
-      ],
-    "time":2700},
-    {"unit":"1-1electron",
-      "requirements":[
-        "silicon/10",
-        "titanium/20",
-       ],
-   "time":3000},
-    {"unit":"2-1strap",
+"plans":[{"unit":"2-1strap",
       "requirements":[
         "silicon/15",
         "copper/40",
       ],
-    "time":1200}],
+    "time":1200},
+    {"unit":"stemp",
+      "requirements":[
+        "silicon/20",
+        "graphite/15",
+      ],
+    "time":2700},
+    {"unit":"3-1oxtron",
+      "requirements":[
+        "silicon/25",
+        "metaglass/35",
+      ],
+    "time":3600}],
     "description":"Build units with recources",
     "size":3,
     "category":"units",
     "requirements":
-        [{"item":"copper","amount":"60"},{"item":"lead","amount":"50"},{"item":"2aluminium","amount":"50"}],
+        [{"item":"copper","amount":"60"},{"item":"graphite","amount":"40"},{"item":"2aluminium","amount":"50"}],
     "consumes":{
         "power":1.3},
     "type":"UnitFactory"
