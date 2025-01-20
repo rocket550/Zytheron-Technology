@@ -22,7 +22,7 @@
       "damage":10,
       "chance":0.15,
       "length":12,
-      "minSpeed":5,
+      "minSpeed":4.5,
       "maxSpeed":7,
       "heatRegion":"coso",   
     }
