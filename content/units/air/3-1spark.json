@@ -1,6 +1,6 @@
 {
   "type":"flying",
-  "name":"Thunder",
+  "name":"Spark",
   "description":"Its an air unit that when accelerates shoots lithning to enemy targets",
   "flying":true,
   "speed":5.625,
