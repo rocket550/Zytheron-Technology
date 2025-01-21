@@ -16,8 +16,8 @@
   "lowAltitude":"true",
   "ammoType":"silicon",
   "ammoCapacity":30,
+  "targetFlags": ["generator"],
   "circleTarget":true,
-  "targetFlags":["generator"],
   "abilities":[
     {
       "type":"MoveLightningAbility",
