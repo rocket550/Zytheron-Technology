@@ -12,10 +12,11 @@
   "rotateSpeed":2,
   "itemCapacity":10,
   "range":144,
+  "maxRange":144,
   "lowAltitude":"true",
   "ammoType":"silicon",
   "ammoCapacity":30,
-  "maxRange":144,
+  "circleTarget":true,
   "abilities": [
     {
       "type":"MoveLightningAbility",
