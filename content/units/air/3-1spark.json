@@ -1,7 +1,7 @@
 {
   "type":"flying",
   "name":"Spark",
-  "description":"Its an air unit that when accelerates shoots lithning to enemy targets",
+  "description":"Its an air unit that when accelerates shoots lightning to enemy targets",
   "flying":true,
   "speed":5.625,
   "hitSize":9,
@@ -20,7 +20,7 @@
     {
       "type":"MoveLightningAbility",
       "damage":10,
-      "chance":0.15,
+      "chance":0.2,
       "length":12,
       "minSpeed":4.5,
       "maxSpeed":7,
