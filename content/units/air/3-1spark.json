@@ -17,7 +17,8 @@
   "ammoType":"silicon",
   "ammoCapacity":30,
   "circleTarget":true,
-  "abilities": [
+  "targetFlags":["generator"],
+  "abilities":[
     {
       "type":"MoveLightningAbility",
       "damage":10,
