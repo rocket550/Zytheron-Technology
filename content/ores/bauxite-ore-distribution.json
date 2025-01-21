@@ -1,0 +1,10 @@
+{
+  "oreDistribution":[
+    {
+      "block":"bauxite",
+      "chance":0.02,
+      "perChunk":5,
+      "size":7
+    }
+  ]
+}
