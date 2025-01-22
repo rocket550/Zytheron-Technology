@@ -5,6 +5,7 @@
   "flying":true,
   "speed":5.625,
   "hitSize":9,
+  "fallTime":0.5,
   "health":80,
   "armor":0,
   "accel":0.03,
