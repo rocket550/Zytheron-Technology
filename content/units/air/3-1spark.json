@@ -14,7 +14,7 @@
   "itemCapacity":10,
   "range":144,
   "maxRange":144,
-  "lowAltitude":"true",
+  "lowAltitude":false,
   "ammoType":"silicon",
   "ammoCapacity":30,
   "targetFlags": ["generator"],
