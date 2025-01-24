@@ -22,6 +22,12 @@
   "abilities":[
     {
       "type":"MoveLightningAbility",
+       "damage":0,
+      "chance":0,
+      "length":0,
+      "minSpeed":4.5,
+      "maxSpeed":7,
+      "heatRegion":"coso",
       "bullet": {
         "type": "fireBulletType",
         "collides": true,
@@ -36,10 +42,10 @@
         "pierceBuilding": true,
         "buildingDamageMultiplier": 1,
         "shootEffect": "shootSmallFlame",
-	      "fireTrailChance":0,
+	"fireTrailChance":0,
         "velMin":5.9,
         "velMax":6.3,
-	      "status":"burning",
+	"status":"burning",
         "trailColor":"ddd08d",
      }
     }
