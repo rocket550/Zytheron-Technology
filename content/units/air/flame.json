@@ -1,6 +1,6 @@
 {
   "type":"flying",
-  "name":"Test",
+  "name":"Flame",
   "description":"Its an air unit that when accelerates shoots lightning to enemy targets",
   "flying":true,
   "speed":5.625,
@@ -23,7 +23,7 @@
     {
       "type":"MoveLightningAbility",
        "damage":0,
-      "chance":0.2,
+      "chance":1,
       "length":0,
       "minSpeed":4.5,
       "maxSpeed":7,
