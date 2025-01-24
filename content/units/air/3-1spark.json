@@ -28,7 +28,7 @@
       "minSpeed":4.5,
       "maxSpeed":7,
       "status":"shocked",
-      "heatRegion":"coso",
+      "heatRegion":"3-1spark-charge",
     }
   ]
   "weapons":[{
