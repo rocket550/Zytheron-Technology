@@ -3,7 +3,7 @@
   "name":"Flame",
   "description":"Its an air unit that when accelerates shoots lightning to enemy targets",
   "flying":true,
-  "speed":5.625,
+  "speed":5,
   "hitSize":9,
   "fallTime":0.5,
   "health":80,
@@ -27,6 +27,7 @@
       "length":0,
       "minSpeed":4.5,
       "maxSpeed":7,
+      "shootSound":"flame",
       "heatRegion":"coso",
       "bullet": {
         "type": "fireBulletType",
