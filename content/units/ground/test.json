@@ -1,0 +1,36 @@
+{
+  "type": "UnitType",
+  "name": "electric-unit",
+  "speed": 2.0,
+  "health": 600,
+  "hitSize": 10,
+  "weapons": [
+    {
+      "name": "electric-weapon",
+      "type": "Weapon",
+      "reload": 20,
+      "x": 4,
+      "y": 0,
+      "rotate": true,
+      "mirror": true,
+      "bullet": {
+        "type": "LightningBulletType",
+        "damage": 40,
+        "lightningLength": 25,
+        "lightningColor": "00ccff",
+        "status": "shocked",
+        "statusDuration": 60
+      },
+      "ammoTypes": {
+        "power": {
+          "type": "LightningBulletType",
+          "damage": 60,
+          "lightningLength": 40,
+          "lightningColor": "ffcc00",
+          "status": "shocked",
+          "statusDuration": 120
+        }
+      }
+    }
+  ]
+}
