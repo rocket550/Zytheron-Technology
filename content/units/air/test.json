@@ -1,0 +1,72 @@
+{
+  "type":"flying",
+  "name":"Test",
+  "description":"Its an air unit that when accelerates shoots lightning to enemy targets",
+  "flying":true,
+  "speed":5.625,
+  "hitSize":9,
+  "fallTime":0.5,
+  "health":80,
+  "armor":0,
+  "accel":0.03,
+  "drag":0.01,
+  "rotateSpeed":2,
+  "itemCapacity":10,
+  "range":144,
+  "maxRange":144,
+  "lowAltitude":"true",
+  "ammoType":"silicon",
+  "ammoCapacity":30,
+  "targetFlags": ["generator"],
+  "circleTarget":true,
+  "abilities":[
+    {
+      "type":"MoveLightningAbility",
+      "bullet": {
+        "type": "fireBulletType",
+        "collides": true,
+        "collidesAir" : true,
+        "collidesTiles" : true,
+        "range":48,
+        "maxRange":48,
+        "speed": 4,
+        "lifetime": 11,
+        "damage": 16,
+        "pierce":"true",
+        "pierceBuilding": true,
+        "buildingDamageMultiplier": 1,
+        "shootEffect": "shootSmallFlame",
+	      "fireTrailChance":0,
+        "velMin":5.9,
+        "velMax":6.3,
+	      "status":"burning",
+        "trailColor":"ddd08d",
+     }
+    }
+  ]
+  "weapons":[{
+      "name":"spark-turret",
+      "x":0,
+      "y":0,
+      "reload":20,
+      "shootSound":"none",
+      "shootX":0,
+      "shootY":0,
+      "rotate":false,
+      "mirror":false,
+      "recoil":0,
+      "ejectEffect": "none",
+      "bullet":{
+          "type":"basicBulletType",
+            "Damage":10,
+            "height":0,
+            "width":0,
+            "lifetime":0,
+            "shootEffect":"none",
+            "smokeEffect":"none",
+            "despawnEffect":"none",
+      }
+  }],
+
+  "research":"1electric-factory"
+}
