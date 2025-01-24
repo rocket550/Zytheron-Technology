@@ -27,7 +27,8 @@
       "length":12,
       "minSpeed":4.5,
       "maxSpeed":7,
-      "heatRegion":"coso",   
+      "status":"shocked",
+      "heatRegion":"coso",
     }
   ]
   "weapons":[{
