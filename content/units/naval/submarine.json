@@ -1,0 +1,67 @@
+{
+  "type":"naval",
+  "name":"Submarine",
+  "description":"Its a boat with a mortar for attacking targets far away and two flamethrowers to melt near units or buildings",
+  "speed":0.8,
+  "hitSize":9,
+  "health":280,
+  "armor":3,
+  "itemCapacity":40,
+  "range":216,
+  "accel":0.3,
+  "ammoType":"graphite",
+  "ammoCapacity":30,
+  "maxRange":216,
+  "weapons": [
+    {
+      "name":"oxtron-artillery",
+      "x":0,
+      "y":-3.5,
+      "reload":96,
+      "rotateSpeed":"3.2",
+      "shootSound":"artillery",
+      "shootX":0,
+      "shootY":2,
+      "rotate":true,
+      "mirror":false,
+      "recoil":1.5
+      "bullet":{
+        "type":"artilleryBulletType",
+        "collides":true,
+        "collidesAir":false,
+        "collidesTiles":true,
+        "range":216,
+        "maxRange":216,
+        "speed":3,
+        "lifetime":74,
+        "damage":6,
+        "pierce":false,
+        "buildingDamageMultiplier":1,
+        "shootEffect": "shootBig",
+	"splashDamageRadius":20,
+	"splashDamage":26,
+        "width":12,
+	"height":18,
+        "trailColor":"ddd08d",
+     }
+    },
+    {
+"type":"PointDefenseWeapon",
+      "name":"submarine-defense-point",
+      "x":10,
+      "y":-2,
+      "mirror":true,
+      "reload":7,
+      "shootSound":"lasershoot",
+      "targetInterval":4,
+      "targetSwitchInterval":6,
+      "bullet": {
+        "shootEffect":"sparkShoot",
+        "hitEffect":"pointHit",
+        "maxRange":96,
+        "damage":6,
+     }
+    }
+  ],
+  "research": "2attack-factory"
+}
