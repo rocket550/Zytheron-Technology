@@ -4,7 +4,7 @@
   "description":"Its a boat with a mortar for attacking targets far away and two flamethrowers to melt near units or buildings",
   "speed":0.8,
   "hitSize":9,
-  "health":280,
+  "health":340,
   "armor":3,
   "itemCapacity":40,
   "range":216,
@@ -28,7 +28,7 @@
       "recoil":1.5
       "shoot":{
       "shots":4,
-      "shootDelay":6,
+      "shootDelay":10,
   	},
       "bullet":{
         "type":"basicBulletType",
