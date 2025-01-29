@@ -1,6 +1,6 @@
 {
   "type":"naval",
-  "name":"Submarine",
+  "name":"Templex",
   "description":"Its a boat with a mortar for attacking targets far away and two flamethrowers to melt near units or buildings",
   "speed":0.8,
   "hitSize":9,
