@@ -48,9 +48,9 @@
     {
 "type":"PointDefenseWeapon",
       "name":"submarine-defense-point",
-      "x":10,
+      "x":0,
       "y":-2,
-      "mirror":true,
+      "mirror":false,
       "reload":7,
       "shootSound":"lasershoot",
       "targetInterval":4,
