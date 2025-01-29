@@ -33,8 +33,6 @@
           "lifetime":42
           "hitSize":10,
           "pierce":false,
-	  "frontColor":"f8ad42",
-	  "backColor":"f68021",
 	  "splashDamageRadius":20,
 	  "splashDamage":25,
 	  "ammoMultiplier":2,
