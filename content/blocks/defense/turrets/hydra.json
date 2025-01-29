@@ -25,8 +25,8 @@
       "pyratite":{
           "type": "MissileBulletType",
           "height": 12,
-          "width": 8,
-	  "collideTerrain":"true",
+          "width": 8,      
+	  "collideFloor":true,
           "inaccuracy":1,
           "damage":5,
           "speed": 4,
@@ -58,12 +58,12 @@
       },
       }
   "requirements":[{
-      "item": "copper",
-      "amount": 40
-    },{
       "item": "silicon",
+      "amount":20
+    },{
+      "item":"metaglass",
       "amount": 15
     }],
-  "category": "turret",
-  "research":"hail"
+  "category":"turret",
+  "research":"trocket"
 }
