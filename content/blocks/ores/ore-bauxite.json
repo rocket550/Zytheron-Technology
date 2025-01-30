@@ -1,0 +1,10 @@
+{
+  "type":"OreBlock",
+  "localizedName":"Bauxite",
+  "itemDrop":"1bauxite",
+  "hasColor":true,
+  "mapColor":"905138",
+  "oreDefault":true,
+  "hidden":false,
+  "variants":3,
+}
