@@ -22,8 +22,8 @@
       "type":"ShootBarrel",
       "barrels":[
         0, 2, 0,
-        4, 0, 0,
-       -4, 0, 0
+        1, 0, 0,
+       -1, 0, 0
       ],
       "barrelOffset":1,
       "shots":1,
@@ -41,6 +41,9 @@
           "lifetime": 45,
           "hitSize": 10,
           "pierce": false,
+	  "homingDelay": 8,
+ 	  "homingPower": 0.05,
+ 	  "homingRange": 12, 
 	  "ammoMultiplier":2,
       },
           "thorium":{
@@ -60,9 +63,6 @@
           "type": "BasicBulletType",
           "height": 8,
           "width": 6,
-	  "homingDelay": 8,
-          	"homingPower": 0.05,
-          	"homingRange": 12, 
           "inaccuracy":7,
           "damage":12,
           "speed": 7,
