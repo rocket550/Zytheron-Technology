@@ -18,10 +18,16 @@
   "inaccuracy":8,
   "targetAir": true,
   "targetGround": true,
-      "shoot": {
-        "shots":1,
-        "shotDelay":6,
-      },
+    "shoot":{
+      "type":"ShootBarrel",
+      "barrels":[
+        0, 2, 0,
+        4, 0, 0,
+       -4, 0, 0
+      ],
+      "barrelOffset":1,
+      "shots":1,
+    },
 
   "ammoTypes": {
       "silicon":{
