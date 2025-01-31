@@ -1,7 +1,7 @@
    {
-  "type": "ItemTurret",
-  "name": "Multier",
-  "description": "Shoots large amounts of fire to enemy targets ",
+  "type":"ItemTurret",
+  "name":"Multier",
+  "description":"Shoots small bullets to enemy targets",
   "health":1250,
   "reload":10,
   "coolantMultiplier":1,
@@ -35,54 +35,41 @@
           "height": 12,
           "width": 8,
           "inaccuracy":7,
-          "damage":5,
+          "damage":35,
           "speed":5,
-	  "knockback":0.3,
-          "lifetime": 45,
-          "hitSize": 10,
+	  "reloadMultiplier":1.2,
+          "pierceCap":3,
+          "lifetime":45,
+          "hitSize":10,
           "pierce": false,
 	  "homingDelay": 8,
  	  "homingPower": 0.05,
  	  "homingRange": 12, 
-	  "ammoMultiplier":2,
+	  "ammoMultiplier":4,
       },
-          "thorium":{
-          "type": "BasicBulletType",
-          "height": 8,
-          "width": 6,
+          "2aluminium":{
+          "type":"BasicBulletType",
+          "height":14,
+          "width":9,
           "inaccuracy":7,
-          "damage":15,
-          "reloadMultiplier":0.8,
-          "speed": 5,
-          "lifetime": 45,
-          "hitSize": 10,
-          "pierce": false,
-	  "ammoMultiplier":2,
-      },
-          "blast-compound":{
-          "type": "BasicBulletType",
-          "height": 8,
-          "width": 6,
-          "inaccuracy":7,
-          "damage":12,
-          "speed": 7,
-          "lifetime": 45,
-          "hitSize": 10,
-          "pierce": false,
-	  "ammoMultiplier":3,
+          "damage":42,
+          "speed":5,
+	  "pierceCap":4,
+          "lifetime":45,
+          "hitSize":11,
+          "pierce":false,
+	  "ammoMultiplier":4,
       }}
   "requirements":[{
-      "item": "copper",
-      "amount": 100
+      "item": "lead",
+      "amount":140
     },{
-      "item": "silicon",
-      "amount": 75
+      "item":"silicon",
+      "amount":80
     },{
-      "item": "thorium",
-      "amount": 50
+      "item":"2aluminium",
+      "amount":120
     }],
-
   "category": "turret",
   "research":"extent"
-
 }
