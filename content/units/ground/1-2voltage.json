@@ -38,6 +38,7 @@
       "mirror":false,
       "recoil":1,
       "shake":0.5,
+      "inacuracy":3,
       "shoot":{
       "type":"ShootBarrel",
       "barrels":[
