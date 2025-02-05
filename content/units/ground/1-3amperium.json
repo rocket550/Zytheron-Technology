@@ -29,7 +29,7 @@
      "name":"amperium-turret",
       "x":0,
       "y":0,
-      "reload":160,
+      "reload":130,
       "rotateSpeed":2,
       "shootSound":"shootBig",
       "shootX":0,
