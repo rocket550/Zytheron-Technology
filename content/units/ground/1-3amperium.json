@@ -36,7 +36,7 @@
       "shootY":12,
       "rotate":true,
       "mirror":false,
-      "recoil":1,
+      "recoil":2.2,
       "shake":0.5,
       "layerOffset":0.0001,
       "bullet": {
