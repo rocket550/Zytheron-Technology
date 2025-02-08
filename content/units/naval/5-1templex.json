@@ -28,7 +28,7 @@
       "recoil":1.5
       "shoot":{
       "shots":4,
-      "shootDelay":10,
+      "shotDelay":10,
   	},
       "bullet":{
         "type":"basicBulletType",
