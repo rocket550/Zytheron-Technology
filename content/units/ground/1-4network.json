@@ -67,8 +67,8 @@
     {
 	
      "name":"network-dual",
-      "x":4,
-      "y":-4,
+      "x":8,
+      "y":-14,
       "reload":50,
       "rotateSpeed":2,
       "shootSound":"shootBig",
