@@ -40,7 +40,7 @@
       },
       "bullet": {
           "type":"ShrapnelBulletType",
-          "length":8,
+          "length":11,
           "recoil":0.2,
           "collides":true,
           "collidesAir":true,
