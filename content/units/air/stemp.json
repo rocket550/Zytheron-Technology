@@ -40,9 +40,9 @@
       },
       "bullet": {
           "type":"ShrapnelBulletType",
-          "speed":3,
-          "lifetime":10,
-          "keepVelocity":true,
+          "speed":5,
+          "lifetime":30,
+          "keepVelocity":false,
           "length":15,
           "recoil":0.2,
           "collides":true,
