@@ -16,7 +16,8 @@
   "singleTarget":true,
   "omniMovement":false,
   "faceTarget":false,
-  "rotateSpeed": 3
+  "rotateSpeed":3,
+  "immunities":["burning"],
   "treadRects":[
     {
       "x":7,
