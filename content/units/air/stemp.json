@@ -41,6 +41,7 @@
       "bullet": {
           "type":"ShrapnelBulletType",
           "speed":3,
+          "lifetime":10,
           "keepVelocity":true,
           "length":15,
           "recoil":0.2,
