@@ -58,7 +58,7 @@
           "range":168,
           "maxRange":168,
           "damage":10,
-	  "inacuracy":4,
+	  "inaccuracy":4,
 	  "lightningLength":9,
 	  "lightning":1,
 	  "lightningDamage":6,
