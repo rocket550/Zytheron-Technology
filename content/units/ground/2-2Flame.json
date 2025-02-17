@@ -53,9 +53,9 @@
       "lifetime":26,
       "range":128,
       "maxRange":128,
-      "damage":1,
-      "velMin":5.9,
-      "velMax":6.3,
+      "damage":3,
+      "velMin":4.4,
+      "velMax":5.8,
       "status":"burning",
       "buildingDamageMultiplier":1,
     }
