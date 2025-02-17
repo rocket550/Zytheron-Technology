@@ -1,7 +1,7 @@
 {
   "type": "tank",
   "name": "Voltage",
-  "description": "Its an electric tank that shoots arcs to enemy targets",
+  "description": "Its an electric tank that shoots electric bullets to enemy targets",
   "speed": 0.68,
   "squareShape": true,
   "hitSize":12,
@@ -26,7 +26,7 @@
   ],
 
   "weapons":[{
-      "name": "voltage-turret",
+      "name":"voltage-turret",
       "x":0,
       "y":0,
       "reload":16,
@@ -36,9 +36,9 @@
       "shootY":4,
       "rotate":true,
       "mirror":false,
-      "recoil":1,
-      "shake":0.5,
-      "inacuracy":3,
+      "recoil":1.2,
+      "shake":0.3,
+      "inacuracy":4,
       "shoot":{
       "type":"ShootBarrel",
       "barrels":[
