@@ -53,7 +53,7 @@
           "damage":70,
 	  "splashDamage":10,
 	  "splashDamageRadius":19.2,
-	  "hitShake":2,
+	  "hitShake":4,
           "trailLength":16,
 	  "trailWidth":3,
           "trailColor":"a9d8ff",
