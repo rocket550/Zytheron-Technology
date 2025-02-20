@@ -10,12 +10,13 @@
   "itemCapacity":70,
   "range":208,
   "maxRange":208,
-  "ammoType":"copper",
-  "ammoCapacity":48,
+  "ammoType":"titanium",
+  "ammoCapacity":28,
   "singleTarget":true,
   "omniMovement":false,
   "faceTarget":false,
   "rotateSpeed":1.7,
+  "crushDamage":3,
   "treadRects":[
     {
       "x":9,
