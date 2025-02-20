@@ -36,7 +36,6 @@
       "shootY":12,
       "rotate":true,
       "mirror":false,
-      "inaccuracy":5,
       "recoil":2.2,
       "shake":0.5,
       "layerOffset":0.0001,
