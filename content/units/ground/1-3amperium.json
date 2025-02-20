@@ -16,7 +16,7 @@
   "omniMovement":false,
   "faceTarget":false,
   "rotateSpeed":1.7,
-  "crushDamage":0.05,
+  "crushDamage":0.15,
   "treadRects":[
     {
       "x":9,
