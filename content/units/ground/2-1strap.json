@@ -25,7 +25,15 @@
       "height":52,
     }
   ],
-
+  "abilities":[
+    {
+      "type":"ShieldRegenFieldAbility",
+      "range":40,
+      "reload":420,
+      "amount":10,
+      "max":30,
+    }
+  ]
   "weapons":[{
       "name":"strap-turret",
       "x": 0,
