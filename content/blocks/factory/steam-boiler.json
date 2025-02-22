@@ -7,13 +7,14 @@
   "research":"pulverizer",
   "hasLiquids":true,
   "hasItems":true,
+  "heatRequirement":5,
+  "maxEfficiency":1.5,
   "craftEffect":"smeltsmoke",
   "requirements": [
      "copper/60",
      "graphite/40",
   ],
   "consumes": {
-    "heat":0.5,
   "liquids":[
   {
       "liquid": "water",
