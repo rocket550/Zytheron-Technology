@@ -53,7 +53,7 @@
           "damage":140,
 	  "splashDamage":40,
 	  "pierce":true,
-	  "toColor":"ffa0ff",
+	  "toColor":"ff40ff",
 	  "splashDamageRadius":19.2,
 	  "lightningLength":11,
 	  "lightning":16,
