@@ -1,0 +1,39 @@
+{
+  "name":"Steam Boiler",
+  "type":"GenericCrafter",
+  "description":"Makes steam with water and heat",
+  "size":2,
+  "category":"crafting",
+  "research":"pulverizer",
+  "hasLiquids":true,
+  "hasItems":true,
+  "craftEffect":"smeltsmoke",
+  "requirements": [
+     "copper/60",
+     "graphite/40",
+  ],
+  "consumes": {
+    "heat":0.5,
+  "liquids":[
+  {
+      "liquid": "water",
+      "amount": 0.1
+  }
+  ]
+}
+  "craftTime":80,
+  "outputItem": {
+     "item": "steam",
+     "amount": 1
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame"
+      },
+    ]
+  }
