@@ -7,8 +7,7 @@
   "research":"pulverizer",
   "hasLiquids":true,
   "hasItems":true,
-  "heatRequirement":5,
-  "maxEfficiency":1.5,
+  "maxHeat":5,
   "craftEffect":"smeltsmoke",
   "requirements": [
      "copper/60",
@@ -22,10 +21,10 @@
   }
   ]
 }
-  "craftTime":80,
-  "outputLiquid": {
-     "liquids":"steam",
-     "amount":6
+  "craftTime":60,
+  "outputLiquid":{
+     "liquid":"steam",
+     "amount":0.1
   },
   "drawer": {
     "type": "DrawMulti",
