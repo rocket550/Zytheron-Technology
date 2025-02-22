@@ -17,15 +17,15 @@
   "consumes": {
   "liquids":[
   {
-      "liquid": "water",
-      "amount": 0.1
+      "liquid":"water",
+      "amount":0.1
   }
   ]
 }
   "craftTime":80,
-  "outputItem": {
-     "item": "steam",
-     "amount": 1
+  "outputLiquid": {
+     "liquids":"steam",
+     "amount":6
   },
   "drawer": {
     "type": "DrawMulti",
