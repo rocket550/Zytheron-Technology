@@ -8,7 +8,6 @@
   "health":180,
   "treadPullOffset":1,
   "armor":3,
-  "rotateSpeed":5.8,
   "itemCapacity":20,
   "range":96,
   "ammoType":"titanium",
