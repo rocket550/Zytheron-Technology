@@ -1,0 +1,12 @@
+{
+ "type":"Wall",
+ "name":"Bauxite Wall",
+ "category":"defense",
+ "description":"Is a wall that has a tank inside",
+ "health":280,
+ "size":1,
+ "requirements":[
+  "1bauxite/6"
+  ],
+ "research":"micro-chip",
+}
