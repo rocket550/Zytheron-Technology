@@ -1,0 +1,12 @@
+{
+ "type":"Wall",
+ "name":"Aluminium Wall",
+ "category":"defense",
+ "description":"Is a wall that has a tank inside",
+ "health":480,
+ "size":1,
+ "requirements":[
+  "2aluminium/6"
+  ],
+ "research":"micro-chip",
+}
