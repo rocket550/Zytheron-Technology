@@ -6,8 +6,9 @@
     "size": 3,
     "constructTime": 900,
     "upgrades": [
-        ["1-1electron", "1-2voltage"]
-        ["stemp", "spyron"]
+        ["1-1electron","1-2voltage"]
+	["2-1strap","2-2flame"]
+        ["stemp","spyron"]
     ],
     "consumes": {
         "power": 3,
@@ -23,6 +24,6 @@
 	"silicon/100",
 	"2aluminium/100",
     ],
-    "category": "units",
-    "research": "2multiple-factory"
+    "category":"units",
+    "research":"2attack-factory"
 }
