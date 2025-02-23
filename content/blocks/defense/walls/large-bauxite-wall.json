@@ -1,0 +1,12 @@
+{
+ "type":"Wall",
+ "name":"Large Bauxite Wall",
+ "category":"defense",
+ "description":"Is a wall that has a tank inside",
+ "health":1120,
+ "size":2,
+ "requirements":[
+  "1bauxite/24"
+  ],
+ "research":"2-1bauxite-wall",
+}
