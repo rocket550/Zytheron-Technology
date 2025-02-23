@@ -1,0 +1,12 @@
+{
+ "type":"Wall",
+ "name":"Large Aluminium Wall",
+ "category":"defense",
+ "description":"Is a wall that has a tank inside",
+ "health":1920,
+ "size":2,
+ "requirements":[
+  "2aluminium/23"
+  ],
+ "research":"1-1aluminium-wall",
+}
