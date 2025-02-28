@@ -2,7 +2,7 @@
   "type":"tank",
   "name":"Amperium",
   "description":"Its an electric tank with 2 defense lasers that shoots electric bullets to enemy targets",
-  "speed":0.625,
+  "speed":0.725,
   "squareShape": true,
   "hitSize":20.8,
   "health":1100,
