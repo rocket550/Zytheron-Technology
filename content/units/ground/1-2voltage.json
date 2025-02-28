@@ -2,7 +2,7 @@
   "type":"tank",
   "name":"Voltage",
   "description": "Its an electric tank that shoots electric bullets to enemy targets",
-  "speed":0.6875,
+  "speed":0.975,
   "squareShape":true,
   "hitSize":12,
   "health":620,
