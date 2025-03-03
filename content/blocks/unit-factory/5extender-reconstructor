@@ -1,0 +1,28 @@
+{
+    "type":"Reconstructor",
+    "name":"Expansive Reconstructor",
+    "description":"Upgrades units to tier 4",
+    "health":1960,
+    "size":7,
+    "constructTime":6000,
+    "upgrades":[
+        ["1-3amperium","1-4netwokr"]
+    ],
+    "consumes": {
+        "power":12,
+        "items":{
+            "items":[
+		"silicon/400"
+		"2aluminium/400"
+    "1bauxite/600"
+            ]
+        }
+    },
+    "requirements":[
+	"copper/160",
+	"silicon/100",
+	"2aluminium/100",
+    ],
+    "category":"units",
+    "research":"4expansive-reconstructor"
+}
