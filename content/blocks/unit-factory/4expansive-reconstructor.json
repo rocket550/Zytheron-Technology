@@ -1,8 +1,8 @@
 {
     "type":"Reconstructor",
     "name":"Expansive Reconstructor",
-    "description":"Upgrades basic units to tier 2",
-    "health":360,
+    "description":"Upgrades basic units to tier 3",
+    "health":100,
     "size":5,
     "constructTime":2100,
     "upgrades": [
@@ -12,15 +12,17 @@
         "power":6,
         "items":{
             "items":[
-		"silicon/40"
-		"2aluminium/40",
+		"silicon/150",
+		"2aluminium/180",
+		"1bauxite/80",
             ]
         }
     },
     "requirements":[
-	"copper/160",
-	"silicon/100",
-	"2aluminium/100",
+	"copper/300",
+	"silicon/180",
+	"2aluminium/220",
+	"titanium/200",
     ],
     "category":"units",
     "research":"3resize-reconstructor"
