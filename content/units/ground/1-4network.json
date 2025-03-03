@@ -70,8 +70,8 @@
     {
 	
      "name":"network-dual",
-      "x":8,
-      "y":-14,
+      "x":4.6,
+      "y":-11,
       "reload":50,
       "shootSound":"shootBig",
       "shootX":0,
@@ -80,7 +80,7 @@
       "mirror":true,
       "recoil":1,
       "shake":0.5,
-      "baseRotation":45,
+      "baseRotation":-45,
       "shootCone":180,
       "bullet": {
           "type": "BasicBulletType",
