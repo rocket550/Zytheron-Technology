@@ -6,7 +6,7 @@
     "size":7,
     "constructTime":6000,
     "upgrades":[
-        ["1-3amperium","1-4netwokr"]
+        ["1-3amperium","1-4network"]
     ],
     "consumes": {
         "power":12,
