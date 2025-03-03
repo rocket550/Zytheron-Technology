@@ -1,6 +1,6 @@
 {
     "type":"Reconstructor",
-    "name":"Expansive Reconstructor",
+    "name":"Extender Reconstructor",
     "description":"Upgrades units to tier 4",
     "health":1960,
     "size":7,
