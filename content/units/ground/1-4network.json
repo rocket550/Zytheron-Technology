@@ -80,7 +80,8 @@
       "mirror":true,
       "recoil":1,
       "shake":0.5,
-      "baseRotation":-45,
+      "baseRotation":45,
+      "shootCone":180,
       "bullet": {
           "type": "BasicBulletType",
           "collides":true,
