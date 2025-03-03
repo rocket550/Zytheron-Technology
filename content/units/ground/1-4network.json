@@ -40,6 +40,9 @@
       "recoil":1,
       "shake":0.5,
       "layerOffset":0.0001,
+        "shoot": {
+            "firstShotDelay":30,
+        },
       "bullet": {
           "type":"ShrapnelBulletType",
             "chargeEffect":{
