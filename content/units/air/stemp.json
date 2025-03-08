@@ -16,7 +16,7 @@
   "lowAltitude":"true",
   "ammoType":"titanium",
   "ammoCapacity":30,
-  "engineOffset":10,
+  "engineOffset":7,
   "targetFlags":["generator"],
   "weapons":[{
       "name":"stemp-turret",
