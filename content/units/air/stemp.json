@@ -10,7 +10,7 @@
   "accel":0.09,
   "drag":0.05,
   "itemCapacity":20,
-  "itemOffsetY":-1.2,
+  "itemOffsetY":-1.5,
   "payloadCapacity":64,
   "range":80,
   "maxRange":80,
