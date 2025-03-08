@@ -10,7 +10,7 @@
   "accel":0.09,
   "drag":0.05,
   "itemCapacity":20,
-  "itemOffsetY":-1,
+  "itemOffsetY":-1.2,
   "payloadCapacity":64,
   "range":80,
   "maxRange":80,
@@ -18,7 +18,7 @@
   "ammoType":"titanium",
   "ammoCapacity":30,
   "engineOffset":6.8,
-  "engineSize":3.5,
+  "engineSize":3.1,
   "targetFlags":["generator"],
   "weapons":[{
       "name":"stemp-turret",
