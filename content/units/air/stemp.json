@@ -32,8 +32,8 @@
       "type":"ShootBarrel",
       "barrels":[
         0, 0, 0,
-        0, 0, 15,
-        0, 0, -15
+        0, 0, 14,
+        0, 0, -14
       ],
       "barrelOffset":1,
       "shots":3,
@@ -41,7 +41,7 @@
       "bullet": {
           "type":"ShrapnelBulletType",
           "speed":5,
-          "lifetime":16,
+          "lifetime":18,
           "keepVelocity":false,
           "length":15,
           "recoil":0.2,
@@ -52,6 +52,7 @@
           "maxRange":80,
           "damage":12,
           "pierce":true,
+          "pierceBuilding":true,
           "buildingDamageMultiplier":1,
           "shootEffect":"shootSmall",
           "width":17,
