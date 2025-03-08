@@ -2,14 +2,14 @@
  "type":"HeatProducer",
  "name":"Coal Heater",
  "category":"crafting",
- "description":"Is a wall that has a tank inside",
+ "description":"Produces heat by combustion",
  "health":40,
  "size":1,
  "craftTime":120,
  "heatOutput":5,
  "consumeItem":"coal",
  "requirements":[
-  "copper/20"
+  "copper/20",
   "lead/20"
   ],
  "research":"micro-chip",
