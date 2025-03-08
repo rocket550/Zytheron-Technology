@@ -1,13 +1,14 @@
 {
   "name":"Steam Boiler",
-  "type":"GenericCrafter",
+  "type":"HeatCrafter",
   "description":"Makes steam with water and heat",
   "size":2,
   "category":"crafting",
   "research":"pulverizer",
   "hasLiquids":true,
   "hasItems":true,
-  "maxHeat":5,
+  "heatRequirement": 5,
+  "maxEfficiency": 1000,
   "craftEffect":"smeltsmoke",
   "requirements": [
      "copper/60",
