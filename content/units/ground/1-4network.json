@@ -5,7 +5,7 @@
   "speed":0.63,
   "squareShape": true,
   "hitSize":28.8,
-  "health":9000,
+  "health":11000,
   "armor":12,
   "itemCapacity":70,
   "range":272,
@@ -18,6 +18,12 @@
   "rotateSpeed":1.2,
   "crushDamage":7,
   "treadRects":[
+    {
+      "x":9,
+      "y":-30,
+      "width":18,
+      "height":92,
+    },
     {
       "x":9,
       "y":-30,
