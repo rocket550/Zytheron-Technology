@@ -1,7 +1,7 @@
 {
   "type":"tank",
   "name":"Network",
-  "description":"Its an electric tank with 2 defense lasers that shoots electric bullets to enemy targets",
+  "description":"Its an electric tank with a railgun and 2 dual cannons",
   "speed":0.63,
   "squareShape": true,
   "hitSize":28.8,
@@ -103,7 +103,8 @@
 	  "pierce":true,
 	  "pierceBuilding":true,
 	  "pierceCap":4,
-	  "toColor":"6000a0",
+	  "frontColor":"a9d8ff",
+	  "backColor":"a9d8ff",
 	  "splashDamageRadius":19.2,
 	  "lightningLength":20,
 	  "lightning":4,
