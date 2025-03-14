@@ -132,7 +132,7 @@
   	  	"trailColor":"a9d8ff",
 		"homingDelay":1,
   	  	"homingPower":0.17,
-  	  	"homingRange":12,
+  	  	"homingRange":80,
   	  	"buildingDamageMultiplier":10,
 	  	"frontColor":"a9d8ff",
 	 	"backColor":"a9d8ff",
