@@ -133,7 +133,7 @@
 		"homingDelay":1,
   	  	"homingPower":0.17,
   	  	"homingRange":80,
-  	  	"buildingDamageMultiplier":10,
+  	  	"buildingDamageMultiplier":1,
 	  	"frontColor":"a9d8ff",
 	 	"backColor":"a9d8ff",
 		"lightningLength":8,
