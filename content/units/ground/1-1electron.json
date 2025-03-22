@@ -44,6 +44,7 @@
           "collides": true,
           "collidesAir" : true,
           "collidesTiles" : true,
+	  "pierceCap":4,
           "range":96,
           "maxRange":96,
           "damage": 22,
