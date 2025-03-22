@@ -129,6 +129,7 @@
   	    	"damage":5, 
   	    	"lifetime":60,
 	  	"pierce":true,
+		"pierceBuilding":true,
     		"trailLength":10,
   	  	"trailWidth":1.4,
   	  	"trailColor":"a9d8ff",
