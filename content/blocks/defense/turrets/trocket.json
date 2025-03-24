@@ -9,8 +9,8 @@
   "size": 1,
   "shootSound": "missile",
   "shootEffect": "shootSmall",
-  "ammoPerShot": "1",
-  "rotateSpeed": "4.5",
+  "ammoPerShot": 1,
+  "rotateSpeed": 4.5,
   "consumes": {
       "coolant": {
           "amount": 0.1
