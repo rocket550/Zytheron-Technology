@@ -43,7 +43,7 @@
           "width": 8,
           "reloadMultiplier":1.1,
           "inaccuracy":1,
-	  "collideFloor":"true",
+	  "collideFloor":true,
           "damage":20,
           "speed": 4,
           "lifetime": 42
