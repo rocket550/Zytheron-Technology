@@ -1,4 +1,4 @@
-{   name:"Broken",
+{   "name":"Broken",
     "description":"Makes the units walk reversed because they are broken",
     "alwaysUnlocked": false,
     "hideDetails":false,
