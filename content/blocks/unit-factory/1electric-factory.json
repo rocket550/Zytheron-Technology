@@ -1,5 +1,10 @@
 { 
+      "type":"UnitFactory",
       "name":"Electric Factory",
+      "description":"Build units with recources",
+      "health":360,
+      "size":3,
+      "category":"units",
       "plans":[{
             "unit":"1-1electron",
             "requirements":[
@@ -15,18 +20,13 @@
             ],
             "time":600
       }],
-      "description":"Build units with recources",
-      "size":3,
-      "category":"units",
+      "consumes":{
+            "power":2
+      },
       "requirements":[
             "graphite/40",
             "titanium/30",
             "2aluminium/30",
       ],
-      "consumes":{
-            "power":2
-      },
-    "type":"UnitFactory",
-"health":360,
-"research":"ground-factory"
+      "research":"ground-factory"
 }
