@@ -1,24 +1,32 @@
-{"name":"Electric Factory",
-"plans":[{"unit":"1-1electron",
+{ 
+      "name":"Electric Factory",
+      "plans":[{
+            "unit":"1-1electron",
+            "requirements":[
+                  "silicon/10",
+                  "titanium/20",
+            ],
+            "time":900
+      },{"
+            "unit":"3-1spark",
+            "requirements":[
+                  "2aluminium/10",
+                  "titanium/5",
+            ],
+            "time":600
+      }],
+      "description":"Build units with recources",
+      "size":3,
+      "category":"units",
       "requirements":[
-        "silicon/10",
-        "titanium/20",
+            "graphite/40",
+            "titanium/30",
+            "2aluminium/30",
       ],
-    "time":900},
-    {"unit":"3-1spark",
-      "requirements":[
-        "2aluminium/10",
-        "titanium/5",
-      ],
-    "time":600}],
-    "description":"Build units with recources",
-    "size":3,
-    "category":"units",
-    "requirements":
-        [{"item":"graphite","amount":"40"},{"item":"titanium","amount":"30"},{"item":"2aluminium","amount":"60"}],
-    "consumes":{
-        "power":2},
-    "type":"UnitFactory"
-    "health":360
+      "consumes":{
+            "power":2
+      },
+    "type":"UnitFactory",
+"health":360,
 "research":"ground-factory"
 }
