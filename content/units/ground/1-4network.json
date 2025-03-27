@@ -120,7 +120,7 @@
 	"fragBullet":{
   	    	"type":"BasicBulletType",
   	    	"collides":false,
-  	    	"collidesAir":true,
+  	    	"collidesAir":false,
   	    	"height":11,
   	    	"width":8,
   	    	"frontColor":"a9d8ff",
