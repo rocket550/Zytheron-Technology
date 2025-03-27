@@ -33,19 +33,11 @@
       "rotateSpeed":3,
       "shootSound":"shoot",
       "shootX":0,
-      "shootY":4,
+      "shootY":1,
       "rotate":true,
       "mirror":false,
       "recoil":1.2,
       "shake":0.2,
-      "shoot":{
-      "type":"ShootBarrel",
-      "barrels":[
-        1,4,0,
-        -1,4,0,
-      ],
-      "shots":1,
-  },
       "bullet": {
           "type": "BasicBulletType",
           "collides":true,
