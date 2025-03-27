@@ -303,26 +303,5 @@
       }
     }
   ],
-     }
-    },
-    {
-	
-"type":"PointDefenseWeapon",
-      "name":"network-dual",
-      "x":14,
-      "y":-4,
-      "mirror":true,
-      "reload":8,
-      "shootSound":"lasershoot",
-      "targetInterval":2,
-      "targetSwitchInterval":5,
-      "bullet": {
-        "shootEffect":"sparkShoot",
-        "hitEffect":"pointHit",
-        "maxRange":168,
-        "damage":26,
-     }
-    }
-  ],
   "research":"1-4network"
 }
