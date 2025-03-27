@@ -119,7 +119,7 @@
   	  }
 	"fragBullet":{
   	    	"type":"BasicBulletType",
-  	    	"collides": true,
+  	    	"collides":false,
   	    	"collidesAir":true,
   	    	"height":11,
   	    	"width":8,
@@ -128,8 +128,6 @@
   	    	"speed":2,
   	    	"damage":5, 
   	    	"lifetime":60,
-	  	"pierce":true,
-		"pierceBuilding":true,
     		"trailLength":10,
   	  	"trailWidth":1.4,
   	  	"trailColor":"a9d8ff",
