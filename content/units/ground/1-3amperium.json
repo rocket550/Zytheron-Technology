@@ -72,7 +72,7 @@
  	  "homingPower":0.08,
  	  "homingRange":13, 
           "buildingDamageMultiplier": 1,
-          "shootEffect":"shootBig",
+          "shootEffect":"lightningShoot",
 	  "status":"shocked",
      }
     },
