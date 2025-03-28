@@ -88,7 +88,7 @@
 	  "lightningAngle":0,
 	  "lightningColor":"a9d8ff",
           "buildingDamageMultiplier": 1,
-          "shootEffect":"shootBig",
+          "shootEffect":"lightningShoot",
 	  "status":"shocked",
   	  "intervalRandomSpread":30,
           "bulletInterval":5,
