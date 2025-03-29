@@ -9,7 +9,7 @@
   "treadPullOffset":1,
   "armor":3,
   "itemCapacity":20,
-  "itemOffsetY":10,
+  "itemOffsetY":5,
   "range":96,
   "ammoType":"titanium",
   "ammoCapacity":30,
