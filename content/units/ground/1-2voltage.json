@@ -8,7 +8,7 @@
   "health":620,
   "armor":6,
   "itemCapacity":40,
-  "itemOffsetY":2.2,
+  "itemOffsetY":6,
   "range":168,
   "ammoType":"titanium",
   "ammoCapacity":64,
