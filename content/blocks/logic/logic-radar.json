@@ -5,7 +5,7 @@
  "category":"logic",
  "type":"LogicBlock",
  "health":40,
- "research":"mechanical-drill"
+ "research":"micro-chip"
  "range":272,
  "instructionsPerTick":1,
  "maxInstructionsPerTick":1,
