@@ -5,8 +5,8 @@
  "description":"Is a basic wall that protects your buildings from enemy bullets",
  "health":480,
  "size":1,
- "research":"synergy",
  "requirements":[
   "2aluminium/6"
   ],
+ "research":"synergy",
 }
