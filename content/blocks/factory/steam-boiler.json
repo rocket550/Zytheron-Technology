@@ -4,7 +4,7 @@
   "description":"Makes steam with water and heat",
   "size":2,
   "category":"crafting",
-  "research":"pulverizer",
+  "research":"1aluminium-smelter",
   "hasLiquids":true,
   "hasItems":true,
   "heatRequirement": 5,
