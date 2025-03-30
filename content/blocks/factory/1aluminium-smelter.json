@@ -4,7 +4,7 @@
   "description":"Smelts bauxite into aluminium",
   "size":2,
   "category": "crafting",
-  "research": "pulverizer",
+  "research":"core1",
   "hasLiquids":true,
   "hasItems":true,
   "craftEffect":"smeltsmoke",
