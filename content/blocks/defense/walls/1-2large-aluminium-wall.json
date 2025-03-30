@@ -2,11 +2,11 @@
  "type":"Wall",
  "name":"Large Aluminium Wall",
  "category":"defense",
- "description":"Is a wall that has a tank inside",
+ "description":"Is a wall that protects your buildings from enemy bullets",
  "health":1920,
  "size":2,
  "requirements":[
-  "2aluminium/23"
+  "2aluminium/24"
   ],
  "research":"1-1aluminium-wall",
 }
