@@ -65,7 +65,7 @@
           "collides":true,
           "collidesAir":true,
           "collidesTiles":true,
-	  "width":16,
+	  "width":20,
 	  "height":20,
 	  "speed":5,
 	  "lifetime":50,
