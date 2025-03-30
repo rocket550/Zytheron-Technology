@@ -1,11 +1,11 @@
 {
  "name":"Micro Chip",
- "description": "Runs instructions at very slow speed. Can be used for controlling units and buildings"
+ "description":"Runs instructions at very slow speed. Can be used for controlling units and buildings"
  "size":1,
  "category":"logic",
  "type":"LogicBlock",
  "health":40,
- "research":"mechanical-drill"
+ "research":"synergy"
  "range":40,
  "instructionsPerTick":1,
  "maxInstructionsPerTick":1,
