@@ -17,7 +17,10 @@
     },
   ],
   "category":"effect",
-  "research":"mod-gate-cores",
   "unitType":"stemp",
   "unitCapModifier":10
+  "research": {
+    "root":true,
+      "requiresUnlock":false
+    }
 }
