@@ -19,8 +19,4 @@
   "category":"effect",
   "unitType":"stemp",
   "unitCapModifier":10
-  "research": {
-    "root":true,
-      "requiresUnlock":false
-    }
 }
