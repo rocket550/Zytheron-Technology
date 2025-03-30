@@ -80,7 +80,7 @@
 "allowWaveSimulation": true,
 "clearSectorOnLose": true,
 "allowWaves": true,
-"defaultCore":"core1",
+"defaultCore":"synergy",
 "parent":"serpulo",
 "solarSystem":"sun",
 "launchCandidates": [],
