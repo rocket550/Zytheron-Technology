@@ -3,9 +3,9 @@
   "name":"Synergy",
   "description": "the starter core, its a cheap basic core that is usefull to launch if you dont have enough materials",
   "size":3,
-  "researchCostMultiplier":0.1,
   "health":1600,
   "itemCapacity":4200,
+  "alwaysUnlocked":true,
   "requirements": [
     {
       "item": "lead",
