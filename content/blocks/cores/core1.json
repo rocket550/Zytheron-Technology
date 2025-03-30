@@ -2,8 +2,8 @@
   "type": "CoreBlock",
   "name": "Core1",
   "description": "Core of the base. Very well armored and stores a good amount of resources.",
-  "size": 6,
-  "researchCostMultiplier": 0.5,
+  "size":3,
+  "researchCostMultiplier":0.1,
   "health":1600,
   "itemCapacity":4200,
   "requirements": [
