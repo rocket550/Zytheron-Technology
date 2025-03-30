@@ -54,7 +54,7 @@
           "backColor":"a9d8ff",
           "frontColor":"a9d8ff",
           "trailLength":8,
-          "trailWidth":1.4,
+          "trailWidth":2,
           "trailColor":"a9d8ff",
           "inaccuracy":4,
 	  "lightningLength":7,
