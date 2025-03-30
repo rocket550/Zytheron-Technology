@@ -80,9 +80,9 @@
 "allowWaveSimulation": true,
 "clearSectorOnLose": true,
 "allowWaves": true,
-"defaultCore": "core-shard",
-"parent": "sun",
-"solarSystem": "sun",
+"defaultCore":"core1",
+"parent":"serpulo",
+"solarSystem":"sun",
 "launchCandidates": [],
 //No erekir
 "hiddenItems": ["beryllium", "carbide", "tungsten", "fissile-matter", "oxide"],
