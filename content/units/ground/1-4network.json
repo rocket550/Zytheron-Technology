@@ -78,7 +78,7 @@
 	  "pierceBuilding":true,
 	  "pierceCap":2,
           "trailLength":18,
-	  "trailWidth":4,
+	  "trailWidth":4.1,
           "trailColor":"a9d8ff",
           "trailInterval":30,
 	  "frontColor":"a9d8ff",
