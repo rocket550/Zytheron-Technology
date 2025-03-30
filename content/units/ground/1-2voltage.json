@@ -19,10 +19,10 @@
   "rotateSpeed": 2.6
   "treadRects": [
     {
-      "x": 7,
-      "y": -26,
-      "width": 14,
-      "height": 51
+      "x":11.75,
+      "y":-8,
+      "width":4.75,
+      "height":16.5
     }
   ],
 
@@ -57,9 +57,9 @@
           "trailWidth":1.4,
           "trailColor":"a9d8ff",
           "inaccuracy":4,
-	  "lightningLength":9,
-	  "lightning":1,
-	  "lightningDamage":6,
+	  "lightningLength":7,
+	  "lightning":3,
+	  "lightningDamage":2,
 	  "lightningAngle":0,
 	  "lightningColor":a9d8ff,
           "buildingDamageMultiplier": 1,
