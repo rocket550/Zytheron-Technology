@@ -130,8 +130,8 @@
   	  }
 	"fragBullet":{
 		"type": "BasicBulletType",
-          	"collides":true,
-          	"collidesAir":true,
+          	"collides":false,
+          	"collidesAir":false,
           	"collidesTiles":true,
       		"width":10,
       		"height":10,
