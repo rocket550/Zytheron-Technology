@@ -89,8 +89,8 @@
 "allowLaunchToNumbered": true,
 "alwaysUnlocked": true,
 "research": {
-    "root": true,
-    "name": "core1",
-      "requiresUnlock": false
+    "root":false,
+    "name":"Zytheron",
+      "requiresUnlock":false
     }
 }
