@@ -2,11 +2,11 @@
  "type":"Wall",
  "name":"Aluminium Wall",
  "category":"defense",
- "description":"Is a wall that has a tank inside",
+ "description":"Is a basic wall that protects your buildings from enemy bullets",
  "health":480,
  "size":1,
  "requirements":[
   "2aluminium/6"
   ],
- "research":"micro-chip",
+ "research":"synergy",
 }
