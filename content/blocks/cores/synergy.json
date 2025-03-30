@@ -1,7 +1,7 @@
 {
-  "type": "CoreBlock",
-  "name": "Core1",
-  "description": "Core of the base. Very well armored and stores a good amount of resources.",
+  "type":"CoreBlock",
+  "name":"Synergy",
+  "description": "the starter core, its a cheap basic core that is usefull to launch if you dont have enough materials",
   "size":3,
   "researchCostMultiplier":0.1,
   "health":1600,
@@ -20,9 +20,9 @@
   "unitType":"stemp",
   "unitCapModifier":10
   "research":{
-  "planet":"zytheron",
-  "root":true,
-  "name":"Zytheron",
-  "requiresUnlock":false,
+        "planet":"zytheron",
+        "root":true,
+        "name":"Zytheron",
+        "requiresUnlock":false,
   }
 }
