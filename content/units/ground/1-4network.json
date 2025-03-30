@@ -166,8 +166,8 @@
 	
 "type":"PointDefenseWeapon",
       "name":"network-dual",
-      "x":14,
-      "y":-4,
+      "x":8,
+      "y":-8,
       "mirror":true,
       "reload":8,
       "shootSound":"lasershoot",
