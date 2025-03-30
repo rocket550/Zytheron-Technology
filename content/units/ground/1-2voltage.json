@@ -39,6 +39,7 @@
       "mirror":false,
       "recoil":1.2,
       "shake":0.2,
+      "layerOffset":0.0001,
       "bullet": {
           "type": "BasicBulletType",
           "collides":true,
