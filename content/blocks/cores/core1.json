@@ -19,8 +19,10 @@
   "category":"effect",
   "unitType":"stemp",
   "unitCapModifier":10
-    "research": {
-    "root":true,
-      "requiresUnlock":false,
-    }
+  "research":{
+  "planet":"zytheron",
+  "root":true,
+  "name":"Zytheron",
+  "requiresUnlock":false,
+  }
 }
