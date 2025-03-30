@@ -1,6 +1,6 @@
 {
  "name":"Sea Mine",
- "description": "Explodes when a enemy unit pass over it
+ "description": "Explodes when a enemy unit pass over it",
  "size":1,
  "category":"effect",
  "type":"shockMine",
@@ -10,7 +10,7 @@
  "shots":1,
  "tileDamage":100,
  "hasShadow":false,
- "research":"mechanical-pump"
+ "research":"hydra"
  "bullet": {
       "collides": false,
       "collidesTiles": false,
