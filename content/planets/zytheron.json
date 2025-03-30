@@ -1,6 +1,7 @@
 {
 "localizedName":"Zytheron",
-"description":"Its a green planet with big oceans": [{
+"description":"Its a green planet with big oceans":
+"mesh": [{
     //sand
     "type": "NoiseMesh",
     "planet":"zytheron",
