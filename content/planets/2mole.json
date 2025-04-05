@@ -81,7 +81,7 @@
 "clearSectorOnLose": true,
 "allowWaves": true,
 "defaultCore":"synergy",
-"parent":"zytheron",
+"parent":"1zytheron",
 "solarSystem":"sun",
 "launchCandidates": [],
 //No erekir
