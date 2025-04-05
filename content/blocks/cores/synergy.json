@@ -20,7 +20,7 @@
   "unitType":"stemp",
   "unitCapModifier":10
   "research":{
-        "planet":"zytheron",
+        "planet":"1zytheron",
         "root":true,
         "name":"Zytheron",
         "requiresUnlock":false,
