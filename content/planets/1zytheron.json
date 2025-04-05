@@ -4,7 +4,7 @@
 "mesh": [{
     //sand
     "type": "NoiseMesh",
-    "planet":"zytheron",
+    "planet":"1zytheron",
     "divisions": 5,
     "seed": 0,
     "radius": 1,
@@ -18,7 +18,7 @@
   {
     //water
     "type": "NoiseMesh",
-    "planet": "zytheron",
+    "planet": "1zytheron",
     "divisions": 5,
     "seed": 7,
     "radius": 0.99,
@@ -32,7 +32,7 @@
   {
     //dark sand
     "type": "NoiseMesh",
-    "planet": "zytheron",
+    "planet": "1zytheron",
     "divisions": 2,
     "seed": 14,
     "radius": 1.1,
