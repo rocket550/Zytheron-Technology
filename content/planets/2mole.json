@@ -72,7 +72,7 @@
 "accessible":true,
 "updateLighting":true,
 "sectorSeed":6,
-"bloom" true,
+"bloom":true,
 "visible":true,
 "atmosphereColor":"999955",
 "iconColor":"5c5c5c",
