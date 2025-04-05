@@ -81,7 +81,7 @@
 "clearSectorOnLose": true,
 "allowWaves": true,
 "defaultCore":"synergy",
-"parent":"serpulo",
+"parent":"sun",
 "solarSystem":"sun",
 "launchCandidates": [],
 //No erekir
