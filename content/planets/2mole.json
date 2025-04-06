@@ -12,8 +12,8 @@
     "color2":"707070",
     "octaves":2,
     "persistence":0.8,
-    "scale":2,
-    "mag":2,
+    "scale":1.2,
+    "mag":1.2,
   },
   {
     //water
@@ -26,8 +26,8 @@
     "color2":"bababa",
     "octaves":2,
     "persistence":0.8,
-    "scale":2,
-    "mag":2,
+    "scale":1.2,
+    "mag":1.2,
   },
   {
     //dark sand
@@ -40,8 +40,8 @@
     "color2":"454545",
     "octaves":2,
     "persistence":0.8,
-    "scale":2,
-    "mag":2,
+    "scale":1.2,
+    "mag":1.2,
 }],
 "cloudMesh": {},
 "generator": {
@@ -61,7 +61,7 @@
 },
 "startSector": 0,
 "orbitSpacing":1,
-"radius":2,
+"radius":1.2,
 "minZoom":0.1,
 "allowLaunchSchematics":true,
 "allowLaunchLoadout":true,
@@ -76,7 +76,7 @@
 "visible":true,
 "atmosphereColor":"a8a8a8",
 "iconColor":"5c5c5c",
-"hasAtmosphere":true,
+"hasAtmosphere":false,
 "allowWaveSimulation":true,
 "clearSectorOnLose":true,
 "allowWaves":true,
