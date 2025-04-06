@@ -3,7 +3,7 @@
     "name":"Ultimate Reconstructor",
     "description":"Upgrades units to tier 4",
     "health":3240,
-    "size":16,
+    "size":9,
     "constructTime":18000,
     "upgrades":[
         ["1-4network","1-5oblivion"]
