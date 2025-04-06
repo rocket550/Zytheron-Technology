@@ -4,7 +4,7 @@
     "description":"Upgrades units to tier 4",
     "health":3240,
     "size":9,
-    "constructTime":18000,
+    "constructTime":12000,
     "upgrades":[
         ["1-4network","1-5oblivion"]
     ],
