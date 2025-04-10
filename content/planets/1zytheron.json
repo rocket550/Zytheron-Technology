@@ -5,7 +5,7 @@
     //grass
     "type":"NoiseMesh",
     "planet":"1zytheron",
-    "divisions":2,
+    "divisions":4,
     "seed":0,
     "radius":1,
     "color1":"5ea350",
@@ -19,7 +19,7 @@
     //water
     "type":"NoiseMesh",
     "planet":"1zytheron",
-    "divisions":2,
+    "divisions":4,
     "seed":7,
     "radius":1,
     "color1":"587d89",
@@ -33,7 +33,7 @@
     //stone
     "type":"NoiseMesh",
     "planet":"1zytheron",
-    "divisions":2,
+    "divisions":4,
     "seed":14,
     "radius":1,
     "color1":"777778",
