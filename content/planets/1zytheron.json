@@ -2,14 +2,14 @@
 "localizedName":"Zytheron",
 "description":"Its a green planet with big oceans",
 "mesh": [{
-    //sand
+    //grass
     "type":"NoiseMesh",
     "planet":"1zytheron",
     "divisions":5,
     "seed":0,
     "radius":1,
-    "color1":"babca8",
-    "color2":"c6c282",
+    "color1":"5ea350",
+    "color2":"537a4b",
     "octaves":6,
     "persistence":1,
     "scale":1.2,
@@ -30,14 +30,14 @@
     "mag":1.2,
   },
   {
-    //dark sand
+    //sand
     "type":"NoiseMesh",
     "planet":"1zytheron",
     "divisions":2,
     "seed":14,
     "radius":1.1,
-    "color1":"222200ff",
-    "color2":"333311ff",
+    "color1":"#d9ca59",
+    "color2":"#e0d477",
     "octaves":1,
     "persistence": 1,
     "scale":1.2,
