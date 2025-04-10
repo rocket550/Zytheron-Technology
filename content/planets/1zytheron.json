@@ -12,8 +12,8 @@
     "color2":"537a4b",
     "octaves":6,
     "persistence":1,
-    "scale":1.4,
-    "mag":1.1,
+    "scale":1.8,
+    "mag":1.8,
   },
   {
     //water
@@ -25,7 +25,7 @@
     "color1":"587d89",
     "color2":"5e95a8",
     "octaves":6,
-    "persistence":1.1,
+    "persistence":1.01,
     "scale":1,
     "mag":1,
   },
@@ -40,8 +40,8 @@
     "color2":"5c5b5b",
     "octaves":6,
     "persistence": 1,
-    "scale":1.4,
-    "mag":1.1,
+    "scale":1.8,
+    "mag":1.8,
 }],
 "cloudMesh":{},
 "generator":{
