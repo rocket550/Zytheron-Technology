@@ -40,8 +40,8 @@
     "color2":"5c5b5b",
     "octaves":6,
     "persistence": 1,
-    "scale":0.8,
-    "mag":1.6,
+    "scale":2,
+    "mag":0.8,
 }],
 "cloudMesh":{},
 "generator":{
