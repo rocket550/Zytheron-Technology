@@ -62,7 +62,7 @@
 "startSector": 0,
 "orbitSpacing":1,
 "radius":0.4,
-"minZoom":0.1,
+"minZoom":1,
 "allowLaunchSchematics":true,
 "allowLaunchLoadout":true,
 "drawOrbit":true,
