@@ -60,6 +60,7 @@
   "ferricChance":0.4,
 },
 "startSector": 0,
+"sectorSize":3,
 "orbitSpacing":1.1,
 "radius": 3,
 "minZoom": 0.1,
