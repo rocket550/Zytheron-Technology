@@ -68,7 +68,7 @@
 "allowLaunchLoadout": true,
 "drawOrbit":true,
 "atmosphereRadIn":0,
-"atmosphereRadOut":8,
+"atmosphereRadOut":20,
 "prebuildBase":false,
 "accessible":true,
 "updateLighting":true,
