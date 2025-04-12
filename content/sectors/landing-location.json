@@ -1,7 +1,7 @@
 {
   "localizedName":"Landing Location",
   "description":"The frist sector of Zytheron, beat this to go to the next sector",
-  "difficulty":1,
+  "difficulty":2,
   "planet":"1zytheron",
   "captureWave":15,
   "sector":0,
