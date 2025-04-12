@@ -6,7 +6,7 @@
     "size":9,
     "constructTime":12000,
     "upgrades":[
-        ["1-4network","1-5oblivion"]
+        ["1-4network","1-5circuit"]
     ],
     "consumes": {
         "power":12,
