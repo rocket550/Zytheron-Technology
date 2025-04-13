@@ -4,7 +4,7 @@
   "description":"Its an electric tank with a railgun and 2 defense points",
   "speed":0.5625,
   "squareShape": true,
-  "hitSize":28.8,
+  "hitSize":40,
   "health":25000,
   "armor":15,
   "itemCapacity":120,
