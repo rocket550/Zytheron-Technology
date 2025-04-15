@@ -37,7 +37,7 @@
 	  "ammoMultiplier":1,
       },
   	"requirements":[{
-      		"item":"south-pole-magnet",
+      		"item":"5south-pole-magnet",
       		"amount":24,
 	}],
 }
