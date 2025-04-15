@@ -39,5 +39,6 @@
       },
   	"requirements":[{
       		"item":"south-pole-magnet",
-      		"amount":24
-}],
+      		"amount":24,
+	}],
+}
