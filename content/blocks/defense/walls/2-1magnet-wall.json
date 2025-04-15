@@ -15,7 +15,6 @@
   "research":"1-1aluminium-wall"
   "consumes": {
       }
-  },
   "researchCostMultiplier": 1,
   "inaccuracy": 1,
   "targetAir": true,
@@ -41,3 +40,4 @@
       		"item":"south-pole-magnet",
       		"amount":24,
 	}],
+}
