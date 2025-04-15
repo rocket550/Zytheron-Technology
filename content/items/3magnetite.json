@@ -1,0 +1,11 @@
+{
+  "name":"Magnetite",
+  "description":"Its a ore used for magnet creation and ammunition",
+  "flammability":0,
+  "radioactivity":0,
+  "explosiveness":0,
+  "charge":0,
+  "color":"444444"
+  "research":{
+    "parent":"1bauxite"}
+}
