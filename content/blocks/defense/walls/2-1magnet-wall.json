@@ -1,7 +1,7 @@
 {
   "type":"PowerTurret",
   "name":"Magnet Wall",
-  "description": "Defendes your building from enemy bullets and atracts enemies",
+  "description":"Defendes your building from enemy bullets and atracts enemies",
   "health":500,
   "reload":0,
   "coolantMultiplier":0,
@@ -30,7 +30,7 @@
     	  "splashDamage":0,
 	  "splashDamageRadius":32,
           "speed":0,
-	  "knockback":-1,
+	  "knockback":1,
           "lifetime":0,
           "hitSize":0,
           "pierce":false,
