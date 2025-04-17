@@ -1,0 +1,10 @@
+{
+  "type":"OreBlock",
+  "localizedName":"Magnetite",
+  "itemDrop":"3magnetite",
+  "hasColor":true,
+  "mapColor":"905138",
+  "oreDefault":true,
+  "hidden":false,
+  "variants":3,
+}
