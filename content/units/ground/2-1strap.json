@@ -66,6 +66,8 @@
 	         "trailWidth":2.4,
           "trailColor":"a9d8ff",
           "trailInterval":30,
+	         "weaveMag":4,
+          "weaveScale":5,
 	         "homingDelay":4,
  	        "homingPower":0.08,
  	        "homingRange":8, 
