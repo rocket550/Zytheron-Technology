@@ -28,7 +28,7 @@
      "amount":1
   },
   "drawer":{
-    "type": "DrawMulti",
+    "type":"DrawMulti",
     "drawers":[
       {
         "type":"DrawDefault"
