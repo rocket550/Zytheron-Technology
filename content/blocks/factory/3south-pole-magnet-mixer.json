@@ -9,7 +9,7 @@
   "hasItems":true,
   "craftEffect":"smeltsmoke",
   "requirements":[
-     "sulicon/60",
+     "silicon/60",
      "aluminium/90",
      "thorium/40",
   ],
