@@ -12,16 +12,19 @@
         "power":12,
         "items":{
             "items":[
-		"silicon/400"
-		"2aluminium/400"
-    "1bauxite/600"
+		"silicon/500"
+		"2aluminium/600"
+    "5south-pole-magnet/400"
+    "4north-pole-magnet/400"
             ]
         }
     },
     "requirements":[
-	"copper/160",
-	"silicon/100",
-	"2aluminium/100",
+	"silicon/600",
+ "3magnetite/600"
+ "2aluminium/600",
+ "5south-pole-magnet/400",
+ "4north-pole-magnet/400",
     ],
     "category":"units",
     "research":"4expansive-reconstructor"
