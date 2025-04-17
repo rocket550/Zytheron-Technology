@@ -69,7 +69,7 @@
 	  "lightningDamage":4,
 	  "lightningAngle":0,
 	  "lightningColor":"a9d8ff",
-	  "homingDelay":6,
+	  "homingDelay":4,
  	  "homingPower":0.08,
  	  "homingRange":13, 
           "buildingDamageMultiplier": 1,
