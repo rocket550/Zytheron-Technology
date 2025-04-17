@@ -11,7 +11,7 @@
   "requirements":[
      "silicon/60",
      "2aluminium/90",
-     "thorium/40",
+     "titanium/40",
   ],
   "consumes":{
     "power":2,
