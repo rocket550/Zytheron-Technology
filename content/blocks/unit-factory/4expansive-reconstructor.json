@@ -14,15 +14,15 @@
             "items":[
 		"silicon/150",
 		"2aluminium/180",
-		"1bauxite/80",
+		"5south-pole-magnet/120",
             ]
         }
     },
     "requirements":[
-	"copper/300",
 	"silicon/180",
+	"3magnetie/200,
 	"2aluminium/220",
-	"titanium/200",
+	"4south-pole-magnet/160",
     ],
     "category":"units",
     "research":"3resize-reconstructor"
