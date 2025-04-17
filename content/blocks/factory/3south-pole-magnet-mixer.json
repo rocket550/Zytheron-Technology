@@ -10,7 +10,7 @@
   "craftEffect":"smeltsmoke",
   "requirements":[
      "silicon/60",
-     "aluminium/90",
+     "2aluminium/90",
      "thorium/40",
   ],
   "consumes":{
