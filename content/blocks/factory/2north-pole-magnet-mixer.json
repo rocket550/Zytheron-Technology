@@ -13,28 +13,28 @@
      "aluminium/90",
      "thorium/40",
   ],
-  "consumes": {
+  "consumes":{
     "power":2,
-    "items": {
-      "items": [
+    "items":{
+      "items":[
         "3magnetite/2" 
         "thorium/1" 
       ]
     }
 }
   "craftTime":80,
-  "outputItem": {
+  "outputItem":{
      "item":"4north-pole-magnet",
      "amount": 1
   },
-  "drawer": {
-    "type": "DrawMulti",
-    "drawers": [
+  "drawer":{
+    "type":"DrawMulti",
+    "drawers":[
       {
-        "type": "DrawDefault"
+        "type":"DrawDefault"
       },
       {
-        "type": "DrawFlame"
+        "type":"DrawFlame"
       },
     ]
   }
