@@ -1,0 +1,41 @@
+{
+  "name":"South Pole Magnet Mixer",
+  "type":"GenericCrafter",
+  "description":"Makes magnets using Magnetite and Titanium",
+  "size":2,
+  "category":"crafting",
+  "research":"1stnergy",
+  "hasLiquids":false,
+  "hasItems":true,
+  "craftEffect":"smeltsmoke",
+  "requirements":[
+     "sulicon/60",
+     "aluminium/90",
+     "thorium/40",
+  ],
+  "consumes":{
+    "power":2,
+    "items":{
+      "items":[
+        "3magnetite/2" 
+        "titanium/1" 
+      ]
+    }
+}
+  "craftTime":80,
+  "outputItem":{
+     "item":"5south-pole-magnet",
+     "amount":1
+  },
+  "drawer":{
+    "type": "DrawMulti",
+    "drawers":[
+      {
+        "type":"DrawDefault"
+      },
+      {
+        "type":"DrawFlame"
+      },
+    ]
+  }
+}
