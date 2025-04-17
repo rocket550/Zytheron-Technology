@@ -66,6 +66,9 @@
 	         "trailWidth":2.4,
           "trailColor":"a9d8ff",
           "trailInterval":30,
+	         "homingDelay":4,
+ 	        "homingPower":0.08,
+ 	        "homingRange":8, 
           "buildingDamageMultiplier":1,
      }
     },
