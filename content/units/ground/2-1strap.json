@@ -62,6 +62,8 @@
 	         "lifetime":44,
           "range":128,
           "maxRange":128,
+	         "frontColor":"FA595C",
+	         "backColor":"FA595C",
           "trailLength":7,
 	         "trailWidth":2.4,
           "trailColor":"FA595C",
