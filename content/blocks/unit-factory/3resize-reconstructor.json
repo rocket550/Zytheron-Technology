@@ -21,7 +21,7 @@
     },
     "requirements":[
 	"silicon/100",
-	"Magnetite/100",
+	"3magnetite/100",
 	"2aluminium/100",
     ],
     "category":"units",
