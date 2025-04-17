@@ -22,7 +22,7 @@
 	"silicon/180",
 	"3magnetite/200",
 	"2aluminium/220",
-	"4south-pole-magnet/160",
+	"5south-pole-magnet/160",
     ],
     "category":"units",
     "research":"3resize-reconstructor"
