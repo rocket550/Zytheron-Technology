@@ -6,7 +6,7 @@
   "reload":110,
   "coolantMultiplier":4,
   "range":176,
-  "size":2,
+  "size":3,
   "shootSound":"shootBig",
   "shootEffect":"shootBig",
   "ammoPerShot":"2",
@@ -21,8 +21,6 @@
   "targetAir": true,
   "targetGround": true,
   "shoot":{
-      "shots": 24,
-      "shootDelay":0.6
   },
   "ammoTypes": {
       "5south-pole-magnet":{
