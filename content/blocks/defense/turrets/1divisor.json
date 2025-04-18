@@ -29,7 +29,8 @@
           "width":16,
           "inaccuracy":0,
           "damage":5,
-          "speed":5,
+          "speed":5,
+
           "lifetime": 36,
           "hitSize": 10,
           "pierce": false,
@@ -77,8 +78,9 @@
           	"inaccuracy":4,
 		         "homingDelay":1,
            "homingPower":0.17,
-           "homingRange":80,
-          	 "buildingDamageMultiplier":1,
+           "homingRange":80,
+
+        "buildingDamageMultiplier":1,
           	 "shootEffect":"lightningShoot",
       }
 },
@@ -87,8 +89,8 @@
           "height": 8,
           "width": 6,
 	  "homingDelay": 8,
-          	"homingPower": 0.05,
-          	"homingRange": 12, 
+          "homingPower": 0.05,
+          "homingRange": 12, 
           "inaccuracy":7,
           "damage":12,
           "speed": 7,
@@ -98,15 +100,15 @@
 	  "ammoMultiplier":3,
       }}
   "requirements":[{
-      "item": "copper",
-      "amount": 100
+      "item":"silicon",
+      "amount":140
     },{
-      "item": "lead",
-      "amount": 75
+      "item":"5north-pole-magnet",
+      "amount":110
     },{
-      "item": "graphite",
-      "amount": 50
+      "item":"4south-pole-magnet",
+      "amount":110
     }],
-  "category": "turret",
+  "category":"turret",
   "research":"trocket"
 }
