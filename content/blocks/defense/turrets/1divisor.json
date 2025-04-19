@@ -106,10 +106,10 @@
       "item":"silicon",
       "amount":140
     },{
-      "item":"5north-pole-magnet",
+      "item":"4north-pole-magnet",
       "amount":110
     },{
-      "item":"4south-pole-magnet",
+      "item":"5south-pole-magnet",
       "amount":110
     }],
   "category":"turret",
