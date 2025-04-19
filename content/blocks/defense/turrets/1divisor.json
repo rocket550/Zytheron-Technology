@@ -81,27 +81,11 @@
           	"inaccuracy":4,
 		         "homingDelay":1,
            "homingPower":0.17,
-           "homingRange":80,
-
-        "buildingDamageMultiplier":1,
+           "homingRange":80,
+           "buildingDamageMultiplier":1,
           	 "shootEffect":"lightningShoot",
       }
-},
-          "silicon":{
-          "type": "BasicBulletType",
-          "height": 8,
-          "width": 6,
-	  "homingDelay": 8,
-          "homingPower": 0.05,
-          "homingRange": 12, 
-          "inaccuracy":7,
-          "damage":12,
-          "speed": 7,
-          "lifetime": 28,
-          "hitSize": 10,
-          "pierce": false,
-	  "ammoMultiplier":3,
-      }}
+},
   "requirements":[{
       "item":"silicon",
       "amount":140
