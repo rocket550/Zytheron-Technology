@@ -1,7 +1,7 @@
 {
   "type":"ItemTurret",
   "name":"Divisor",
-  "description":"Shoots fragments ammunition to enemy targets",
+  "description":"Its a turret made of magnets that shots homing magnet bullets to enemy targets",
   "health":1620,
   "reload":130,
   "coolantMultiplier":4,
@@ -133,7 +133,7 @@
       }
 },
   "requirements":[{
-      "item":"silicon",
+      "item":"3magnetite",
       "amount":140
     },{
       "item":"4north-pole-magnet",
@@ -143,5 +143,6 @@
       "amount":110
     }],
   "category":"turret",
-  "research":"trocket"
+  "research":"multier"
+}
 }
