@@ -76,7 +76,8 @@
            "homingRange":80,
            "buildingDamageMultiplier":1,
           	 "shootEffect":"lightningShoot",
-      },
+      }
+},
           "4north-pole-magnet":{
           "type":"BasicBulletType",
           "height":20,
