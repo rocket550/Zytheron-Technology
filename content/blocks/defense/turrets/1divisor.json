@@ -131,6 +131,7 @@
            "homingRange":80,
            "buildingDamageMultiplier":1,
           	 "shootEffect":"lightningShoot",
+}
       }
 },
   "requirements":[{
