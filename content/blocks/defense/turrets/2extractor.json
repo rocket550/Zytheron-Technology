@@ -1,0 +1,57 @@
+{
+  "type":"PowerTurret",
+  "name":"Extractor",
+  "description":"Defendes your building from enemy bullets and atracts enemies",
+  "health":1250,
+  "reload":0,
+  "coolantMultiplier":0.3,
+  "range":192,
+  "size":3,
+  "shootSound":"shootBig",
+  "shootEffect":"shootBig",
+  "ammoPerShot":"1",
+  "rotateSpeed":"100",
+  "category":"defense",
+  "research":"1-1aluminium-wall"
+  "consumes": {
+      }
+  "researchCostMultiplier": 1,
+  "inaccuracy":7,
+  "targetAir":true,
+  "targetGround":true,
+  "shoot":{
+  },
+  "shootType": {
+        "type": "SapBulletType",
+        "sapStrength":0.8,
+        "length":162,
+        "damage":10,
+        "width":1.6,
+        "knockback":-1,
+        "lifetime": 24,
+        "range":192,
+        "speed":0,
+        "hittable":false,
+        "collidesAir":true,
+        "pierceArmor":true,
+        "shootEffect":"none",
+        "impact":false,
+        "despawnHit":false,
+        "status":"none",
+        "hitEffect":{
+          "type":"ParticleEffect",
+          "baseLength":7,
+          "lifetime":24,
+          //"colorFrom":"88aaff",
+          //"colorTo":"222744",
+          "line":true,
+          "cone":7,
+          "particles":4,
+          "sizeFrom":3,
+          "sizeTo":0.5
+          }
+  	"requirements":[{
+      		"item":"5south-pole-magnet",
+      		"amount":24,
+	}]
+}
