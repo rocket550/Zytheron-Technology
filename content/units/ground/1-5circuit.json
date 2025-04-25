@@ -81,6 +81,11 @@
           "buildingDamageMultiplier": 1,
           "shootEffect":"shootBig",
 	  "status":"shocked",
+	  "pointEffectSpace":60,
+          "pierceEffect":"railHit",
+          "pointEffect":"railTrail",
+          "hitEffect":"massiveExplosion",
+          "smokeEffect":"shootBig2",
 	"fragBullet":{
 
        		}
