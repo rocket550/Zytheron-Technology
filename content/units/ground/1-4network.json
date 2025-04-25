@@ -155,11 +155,11 @@
       		"lightning":3,
       		"lightningDamage":2,
       		"lightningAngle":0,
-      		"lightningColor":a9d8ff,
+      		"lightningColor":"a9d8ff",
           	"buildingDamageMultiplier": 1,
           	"shootEffect":"lightningShoot",
           	"status":"shocked",
-		"fragOnHit":false",
+		"fragOnHit":"false",
        		}
      }
     },
