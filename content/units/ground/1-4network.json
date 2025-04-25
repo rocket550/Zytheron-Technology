@@ -91,7 +91,7 @@
           "buildingDamageMultiplier": 1,
           "shootEffect":"lightningShoot",
 	  "status":"shocked",
-  	  "intervalRandomSpread":30,
+  	  "intervalRandomSpread":10,
           "bulletInterval":5,
   	  "intervalBullets":2,
   	  "intervalSpread":250,
@@ -108,7 +108,7 @@
           	"range":168,
           	"maxRange":168,
 		"damage":0,
-		"splashDamage":5,
+		"splashDamage":15,
           	"splashDamageRadius":16,
           	"backColor":"a9d8ff",
           	"frontColor":"a9d8ff",
@@ -130,8 +130,8 @@
   	  }
 	"fragBullet":{
 		"type": "BasicBulletType",
-          	"collides":false,
-          	"collidesAir":false,
+          	"collides":true,
+          	"collidesAir":true,
           	"collidesTiles":true,
       		"width":10,
       		"height":10,
@@ -140,7 +140,7 @@
           	"range":168,
           	"maxRange":168,
 		"damage":0,
-		"splashDamage":5,
+		"splashDamage":15,
           	"splashDamageRadius":16,
           	"backColor":"a9d8ff",
           	"frontColor":"a9d8ff",
@@ -159,6 +159,7 @@
           	"buildingDamageMultiplier": 1,
           	"shootEffect":"lightningShoot",
           	"status":"shocked",
+		"fragOnHit":false",
        		}
      }
     },
