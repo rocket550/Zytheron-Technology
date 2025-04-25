@@ -50,7 +50,7 @@
             "firstShotDelay":40,
         },
       "bullet": {
-          "type":"RailBulletType",
+          "type":"railBulletType",
             "chargeEffect":{
                 "type": "MultiEffect",
                 "effects":[{
@@ -64,7 +64,7 @@
           "collides":true,
           "collidesAir":true,
           "collidesTiles":true,
-	  "length":352", 
+	  "length":352, 
           "range":352,
           "maxRange":352,
           "damage":560,
