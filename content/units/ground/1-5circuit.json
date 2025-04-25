@@ -67,6 +67,7 @@
 	  "length":352, 
           "range":352,
           "maxRange":352,
+	  "lifetime":10,
           "damage":560,
 	  "splashDamage":120,
 	  "splashDamageRadius":48,
