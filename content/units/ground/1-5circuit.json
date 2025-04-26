@@ -77,6 +77,10 @@
           "buildingDamageMultiplier": 1,
           "shootEffect":"shootBig",
 	  "status":"shocked",
+"fragBullets":1,
+                      "fragRandomSpread":0,
+                "fragVelocityMin":7,
+                "fragVelocityMax":7,
 	"fragBullet":{
 		"type":"basicBulletType",
 	  "collides":true,
