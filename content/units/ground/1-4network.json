@@ -127,6 +127,7 @@
           	"buildingDamageMultiplier": 1,
           	"shootEffect":"lightningShoot",
           	"status":"shocked",
+"fragOnHit":"false",
   	  }
 	"fragBullet":{
 		"type": "BasicBulletType",
@@ -159,7 +160,7 @@
           	"buildingDamageMultiplier": 1,
           	"shootEffect":"lightningShoot",
           	"status":"shocked",
-		"fragOnHit":"false",
+		
        		}
      }
     },
