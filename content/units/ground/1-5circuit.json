@@ -57,7 +57,7 @@
 	  "width":30,
 	  "height":30,
 	  "speed":7,
-	  "lifetime":13,
+	  "lifetime":16,
           "range":352,
           "maxRange":352,
           "damage":220,
@@ -79,8 +79,8 @@
 	  "status":"shocked",
 "fragBullets":1,
                       "fragRandomSpread":0,
-                "fragVelocityMin":7,
-                "fragVelocityMax":7,
+                "fragVelocityMin":1,
+                "fragVelocityMax":1,
 	"fragBullet":{
 		"type":"basicBulletType",
 	  "collides":true,
@@ -89,7 +89,7 @@
 	  "width":30,
 	  "height":30,
 	  "speed":7,
-	  "lifetime":13,
+	  "lifetime":16,
           "range":352,
           "maxRange":352,
           "damage":220,
@@ -111,8 +111,8 @@
 	  "status":"shocked",
 "fragBullets":1,
   	    	"fragRandomSpread":0,
-		"fragVelocityMin":7,
-		"fragVelocityMax":7,
+		"fragVelocityMin":1,
+		"fragVelocityMax":1,
 	"fragBullet":{
 "type":"basicBulletType",
 	  "collides":true,
@@ -121,7 +121,7 @@
 	  "width":30,
 	  "height":30,
 	  "speed":7,
-	  "lifetime":13,
+	  "lifetime":16,
           "range":352,
           "maxRange":352,
           "damage":220,
@@ -141,10 +141,7 @@
           "buildingDamageMultiplier": 1,
           "shootEffect":"shootBig",
 	  "status":"shocked",
-"fragBullets":1,
-                      "fragRandomSpread":0,
-                "fragVelocityMin":7,
-                "fragVelocityMax":7,
+
 }
 }
 
