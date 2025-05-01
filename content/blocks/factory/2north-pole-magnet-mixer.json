@@ -4,7 +4,7 @@
   "description":"Makes magnets using Magnetite and Thorium",
   "size":2,
   "category":"crafting",
-  "research":"1stnergy",
+  "research":"synergy",
   "hasLiquids":false,
   "hasItems":true,
   "craftEffect":"smeltsmoke",
