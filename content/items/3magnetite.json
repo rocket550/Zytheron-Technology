@@ -5,6 +5,7 @@
   "radioactivity":0,
   "explosiveness":0,
   "charge":0,
+  "hardness":3,
   "color":"444444"
   "research":{
     "parent":"1bauxite"}
