@@ -14,13 +14,14 @@
      "thorium/40",
   ],
   "consumes":{
-    "power":2,
+    "power":1.5,
     "items":{
       "items":[
         "3magnetite/2" 
         "thorium/1" 
       ]
-    }
+    }
+
 }
   "craftTime":80,
   "outputItem":{
