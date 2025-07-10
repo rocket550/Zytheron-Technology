@@ -39,7 +39,7 @@
       "reload":160,
       "shootSound":"railgun",
       "shootX":0,
-      "shootY":8,
+      "shootY":16,
       "rotateSpeed":1.8,
       "rotate":true,
       "mirror":false,
