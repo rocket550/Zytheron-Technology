@@ -37,7 +37,7 @@
       "x":0,
       "y":-1,
       "reload":160,
-      "shootSound":"shootBig",
+      "shootSound":"railgun",
       "shootX":0,
       "shootY":8,
       "rotateSpeed":1.8,
