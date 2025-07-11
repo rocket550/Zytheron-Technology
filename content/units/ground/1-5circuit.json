@@ -47,7 +47,7 @@
       "shake":0.5,
       "layerOffset":0.0001,
         "shoot": {
-            "firstShotDelay":40,
+            "firstShotDelay":0,
         },
       "bullet": {
           "type":"basicBulletType",
