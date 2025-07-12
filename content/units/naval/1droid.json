@@ -16,26 +16,26 @@
     {
 	"shootOnDeath":"true",
 	"targetUnderBlocks":"false",
-	"shootSound":"Sounds.explosion",
+	"shootSound":"explosion",
 	"mirror":"false",
 	"shootCone":180,
 	"shootY":0,
 	"reload":24,
-      "bullet": {
-        "collides": false,
-        "collidesTiles": false,
-        "hitSound":"explosion",
-        "hitEffect":"pulverize",
-        "speed":0,
-	"range":60,
-        "splashDamageRadius":60,
-        "instantDisappear":true,
-        "splashDamage":160,
-        "killShooter":true,
-        "hittable":false,
-        "collidesAir":true,
-        "damage":0
-      }
+        "bullet": {
+        	"collides": false,
+    	        "collidesTiles": false,
+        	"hitSound":"explosion",
+        	"hitEffect":"pulverize",
+        	"speed":0,
+		"range":60,
+        	"splashDamageRadius":60,
+        	"instantDisappear":true,
+        	"splashDamage":160,
+        	"killShooter":true,
+        	"hittable":false,
+        	"collidesAir":true,
+        	"damage":0
+	}
     }
   ],
   "research": "explosive-naval-facility"
