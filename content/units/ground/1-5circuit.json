@@ -17,6 +17,7 @@
   "faceTarget":false,
   "rotateSpeed":1.2,
   "crushDamage":4,
+  "drownTimeMultiplier":5,
   "treadRects":[
     {
       "x":9,
