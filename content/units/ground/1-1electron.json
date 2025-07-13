@@ -18,7 +18,7 @@
   "omniMovement":false,
   "faceTarget":false,
   "rotateSpeed":3.6
-  "drownTime":420,
+  "drownTimeMultiplier":1.2,
   "treadRects": [
     {
       "x":7,
