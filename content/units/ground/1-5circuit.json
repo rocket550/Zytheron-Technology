@@ -141,6 +141,26 @@
           "buildingDamageMultiplier": 1,
           "shootEffect":"shootBig",
 	  "status":"shocked",
+	"fragBullet":{
+		      "bullet": {
+          "type":"ShrapnelBulletType",
+          "speed":0,
+          "lifetime":10,
+          "keepVelocity":false,
+          "length":32,
+          "collides":true,
+          "collidesAir":true,
+          "collidesTiles":true,
+          "range":80,
+          "maxRange":80,
+          "damage":80,
+          "pierce":true,
+          "pierceBuilding":true,
+          "buildingDamageMultiplier":1,
+          "width":24,
+          "toColor":"a9d8ff",
+      }
+	}
 
 }
 }
