@@ -52,7 +52,7 @@
             "firstShotDelay":40,
         },
       "bullet": {
-          "type":"BasicBulletType",
+          "type":"EmpBulletType",
             "chargeEffect":{
                 "type": "MultiEffect",
                 "effects":[{
@@ -63,6 +63,7 @@
                     "colorFrom":"a9d8ff",
                     "colorTo":"a9d8ff",
                     }]},
+	  "powerSclDecrease":0.5; 
           "collides":true,
           "collidesAir":true,
           "collidesTiles":true,
@@ -98,7 +99,7 @@
   	  "intervalSpread":250,
   	  "intervalDelay":-1,
   	  "intervalBullet":{
-		"type": "BasicBulletType",
+		"type": "BasicBulleType",
           	"collides":true,
           	"collidesAir":true,
           	"collidesTiles":true,
@@ -128,10 +129,10 @@
           	"buildingDamageMultiplier": 1,
           	"shootEffect":"lightningShoot",
           	"status":"shocked",
-"fragOnHit":"false",
-  	  }
-	"fragBullet":{
-		"type": "BasicBulletType",
+		"fragOnHit":"false",
+  	  	}
+		"fragBullet":{
+		"type":"BasicBulletType",
           	"collides":true,
           	"collidesAir":true,
           	"collidesTiles":true,
