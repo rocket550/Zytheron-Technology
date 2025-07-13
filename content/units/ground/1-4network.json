@@ -63,7 +63,7 @@
                     "colorFrom":"a9d8ff",
                     "colorTo":"a9d8ff",
                     }]},
-	  "powerSclDecrease":0.5; 
+	  "powerSclDecrease":0.5,
           "collides":true,
           "collidesAir":true,
           "collidesTiles":true,
