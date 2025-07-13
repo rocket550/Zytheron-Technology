@@ -52,7 +52,7 @@
         },
       "bullet": {
           "type":"EmpBulletType",
-	  "powerSclDecrease":0.2;
+	  "powerSclDecrease":0.2,
           "collides":true,
           "collidesAir":true,
           "collidesTiles":true,
@@ -85,7 +85,7 @@
           "fragVelocityMax":1,
           "fragBullet":{
               "type":"EmpBulletType",
-	      "powerSclDecrease":0.2;
+	      "powerSclDecrease":0.2,
               "collides":true,
               "collidesAir":true,
               "collidesTiles":true,
@@ -118,7 +118,7 @@
               "fragVelocityMax":1,
               "fragBullet":{
                   "type":"EmpBulletType",
-		  "powerSclDecrease":0.2;
+		  "powerSclDecrease":0.2,
                   "collides":true,
                   "collidesAir":true,
                   "collidesTiles":true,
