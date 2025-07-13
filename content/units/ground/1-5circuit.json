@@ -53,6 +53,7 @@
       "bullet": {
           "type":"EmpBulletType",
 	  "powerSclDecrease":0.2,
+	  "radius":8,
           "collides":true,
           "collidesAir":true,
           "collidesTiles":true,
@@ -86,6 +87,7 @@
           "fragBullet":{
               "type":"EmpBulletType",
 	      "powerSclDecrease":0.2,
+	      "radius":8,
               "collides":true,
               "collidesAir":true,
               "collidesTiles":true,
@@ -119,6 +121,7 @@
               "fragBullet":{
                   "type":"EmpBulletType",
 		  "powerSclDecrease":0.2,
+	          "radius":8
                   "collides":true,
                   "collidesAir":true,
                   "collidesTiles":true,
