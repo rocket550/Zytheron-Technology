@@ -146,6 +146,7 @@
                   "fragBullet":{
                       "type":"ShrapnelBulletType",
                       "speed":0,
+		      "lifetime":25,
                       "keepVelocity":true,
                       "length":46,
                       "collides":true,
