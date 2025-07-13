@@ -51,7 +51,8 @@
             "firstShotDelay":0,
         },
       "bullet": {
-          "type":"basicBulletType",
+          "type":"EmpBulletType",
+	  "powerSclDecrease":0.2;
           "collides":true,
           "collidesAir":true,
           "collidesTiles":true,
@@ -83,14 +84,15 @@
           "fragVelocityMin":1,
           "fragVelocityMax":1,
           "fragBullet":{
-              "type":"basicBulletType",
+              "type":"EmpBulletType",
+	      "powerSclDecrease":0.2;
               "collides":true,
               "collidesAir":true,
               "collidesTiles":true,
-	          "width":26,
-	          "height":26,
-        	  "speed":7,
-        	  "lifetime":16,
+	      "width":26,
+	      "height":26,
+              "speed":7,
+              "lifetime":16,
               "range":352,
               "maxRange":352,
               "damage":160,
@@ -115,7 +117,8 @@
               "fragVelocityMin":1,
               "fragVelocityMax":1,
               "fragBullet":{
-                  "type":"basicBulletType",
+                  "type":"EmpBulletType",
+		  "powerSclDecrease":0.2;
                   "collides":true,
                   "collidesAir":true,
                   "collidesTiles":true,
