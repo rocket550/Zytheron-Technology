@@ -33,7 +33,7 @@
       "y":0,
       "reload":16,
       "rotateSpeed":3,
-      "shootSound":"shoot",
+      "shootSound":"shootAlt",
       "shootX":0,
       "shootY":1,
       "rotate":true,
