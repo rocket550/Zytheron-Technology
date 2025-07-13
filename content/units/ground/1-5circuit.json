@@ -145,8 +145,7 @@
 		      "bullet": {
           "type":"ShrapnelBulletType",
           "speed":0,
-          "lifetime":10,
-          "keepVelocity":false,
+          "keepVelocity":true,
           "length":32,
           "collides":true,
           "collidesAir":true,
