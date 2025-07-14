@@ -20,16 +20,18 @@
   "drownTimeMultiplier":5,
   "treadRects":[
     {
-      "x":9,
-      "y":-30,
-      "width":18,
-      "height":92,
+      "x":20,
+      "y":-8,
+      "width":21,
+      "height":244,
+      "mirror":false,
     },
     {
-      "x":9,
-      "y":-30,
-      "width":54,
-      "height":93,
+      "x":46,
+      "y":-21,
+      "width":10,
+      "height":127,
+      "mirror":true,
     }
   ],
 
