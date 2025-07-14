@@ -47,7 +47,7 @@
       "recoil":1,
       "shake":0.5,
       "layerOffset":0.0001,
-        "shoot": {
+      "shoot": {
             "firstShotDelay":0,
         },
       "bullet": {
@@ -121,7 +121,7 @@
               "fragBullet":{
                   "type":"EmpBulletType",
 		  "powerSclDecrease":0.2,
-	          "radius":8
+	          "radius":8,
                   "collides":true,
                   "collidesAir":true,
                   "collidesTiles":true,
