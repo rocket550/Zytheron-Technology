@@ -63,8 +63,8 @@
 	  "lightning":3,
 	  "lightningDamage":2,
 	  "lightningAngle":0,
-	  "lightningColor":a9d8ff,
-          "buildingDamageMultiplier": 1,
+	  //"lightningCone":90,?
+	  "lightningColor":"a9d8ff",
           "shootEffect":"lightningShoot",
           "status":"shocked",
       }
