@@ -21,7 +21,7 @@
   "treadRects":[
     {
       "x":20,
-      "y":122,
+      "y":-122,
       "width":21,
       "height":244,
       "mirror":false,
