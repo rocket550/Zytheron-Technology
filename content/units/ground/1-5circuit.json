@@ -15,7 +15,7 @@
   "singleTarget":true,
   "omniMovement":false,
   "faceTarget":false,
-  "rotateSpeed":1.2,
+  "rotateSpeed":1,
   "crushDamage":4,
   "drownTimeMultiplier":5,
   "treadRects":[
