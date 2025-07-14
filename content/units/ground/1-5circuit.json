@@ -27,10 +27,10 @@
       "mirror":false,
     },
     {
-      "x":80,
-      "y":-21,
-      "width":10,
-      "height":127,
+      "x":70,
+      "y":-70,
+      "width":36,
+      "height":140,
       "mirror":true,
     }
   ],
