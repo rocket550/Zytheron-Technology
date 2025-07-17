@@ -27,9 +27,9 @@
       "mirror":false,
     },
     {
-      "x":68,
-      "y":-62,
-      "width":20,
+      "x":58,
+      "y":-72,
+      "width":30,
       "height":125,
       "mirror":true,
     }
