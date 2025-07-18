@@ -60,7 +60,7 @@
                     "sizeFrom":48,
                     "sizeTo":0,
                     "lifetime":40,
-                    "colorFrom":"000000",
+                    "colorFrom":"00000077",
                     "colorTo":"a9d8ff",
                     }]},
 	  "powerSclDecrease":0.5,
