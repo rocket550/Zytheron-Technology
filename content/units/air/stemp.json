@@ -24,7 +24,7 @@
       "name":"stemp-turret",
       "x":0,
       "y":4,
-      "reload":55,
+      "reload":80,
       "shootSound":"pew",
       "shootX":0,
       "shootY":4,
