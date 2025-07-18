@@ -58,7 +58,7 @@
 	  "splashDamageRadius":19.2,
 	  "pierce":true,
 	  "pierceBuilding":true,
-	  "pierceCap"2,
+	  "pierceCap":2,
 	  "hitShake":4,
           "trailLength":16,
 	  "trailWidth":3,
