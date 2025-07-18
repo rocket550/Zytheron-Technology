@@ -44,6 +44,7 @@
                 "type": "MultiEffect",
                 "effects":[{
                     "type": "WaveEffect",
+		    "followParent":true,
                     "sizeFrom":22,
                     "sizeTo":0,
                     "lifetime":40,
