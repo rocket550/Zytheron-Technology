@@ -1,7 +1,7 @@
 {
   "type":"payload",
   "name":"Stemp",
-  "description":"Its an air unit with laser shotgun and can take small payload",
+  "description":"Its an air unit with a fast cannon and can take small payload",
   "flying":true,
   "speed":2.3,
   "hitSize":9,
