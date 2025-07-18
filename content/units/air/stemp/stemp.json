@@ -19,6 +19,8 @@
   "ammoCapacity":30,
   "engineOffset":6.8,
   "engineSize":3.1,
+  "engineColor":"FFFFFFDD",
+  "engineColorInner":"FF4411FF",
   "targetFlags":["generator"],
   "weapons":[{
       "name":"stemp-turret",
