@@ -25,7 +25,7 @@
       "x":0,
       "y":4,
       "reload":35,
-      "shootSound":"shotgun",
+      "shootSound":"pew",
       "shootX":0,
       "shootY":4,
       "rotate":false,
