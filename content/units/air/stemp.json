@@ -45,7 +45,7 @@
                     "sizeFrom":22,
                     "sizeTo":0,
                     "lifetime":40,
-                    "colorFrom":"000000",
+                    "colorFrom":"00000077",
                     "colorTo":"ED1C24",
                     }]},
           "type":"BasicBulletType",
