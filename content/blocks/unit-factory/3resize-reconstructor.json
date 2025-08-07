@@ -8,7 +8,7 @@
     "upgrades": [
         ["1-1electron","1-2voltage"]
 	["2-1strap","2-2flame"]
-        ["stemp","spyron"]
+        ["4-1stemp","4-2spyron"]
     ],
     "consumes":{
         "power":3,
@@ -27,3 +27,4 @@
     "category":"units",
     "research":"1electric-factory"
 }
+
