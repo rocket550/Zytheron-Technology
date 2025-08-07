@@ -17,7 +17,7 @@
     },
   ],
   "category":"effect",
-  "unitType":"stemp",
+  "unitType":"4-1stemp",
   "unitCapModifier":10
   "research":{
         "planet":"1zytheron",
@@ -26,3 +26,4 @@
         "requiresUnlock":false,
   }
 }
+
