@@ -5,7 +5,7 @@
         "copper/40",
       ],
     "time":1200},
-    {"unit":"stemp",
+    {"unit":"4-1stemp",
       "requirements":[
         "silicon/20",
         "graphite/15",
@@ -28,3 +28,4 @@
     "health":360
 "research":"1electric-factory",
 }
+
