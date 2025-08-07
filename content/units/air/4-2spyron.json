@@ -16,7 +16,7 @@
   "ammoCapacity":30,
   "weapons": [
     {
-"name":"stemp-turret",
+"name":"spyron-turret",
       "x":3,
       "y":3,
       "reload":20,
@@ -33,9 +33,9 @@
           "collidesAir":true,
           "collidesTiles":true,
           "shootEffect":"shootSmall",
-	  "width":12,
-	  "height":14,
-	  "speed":3,
+	  	  "width":12,
+	  	  "height":14,
+	  	  "speed":3,
           "damage":7,
 	  "splashDamage":7,
 	  "splashDamageRadius":24,
@@ -57,39 +57,25 @@
      }
     },
     {
-      "name": "spyron-missile",
-      "x": 0,
-      "y": -4,
-      "reload":40,
-      "rotateSpeed": "4.8",
-      "shootSound":"missile",
-      "shootX": 0,
-      "shootY": 2,
-      "rotate": true,
-      "mirror": false,
-      "recoil":1.5
+"type":"PointDefenseWeapon",
+      "name":"spyron-defense-point",
+      "x":10,
+      "y":-2,
+      "mirror":true,
+      "reload":12,
+      "shootSound":"lasershoot",
+      "targetInterval": 5,
+      "targetSwitchInterval": 8,
       "bullet": {
-        "type": "missileBulletType",
-        "collides": true,
-        "collidesAir" : false,
-        "collidesTiles" : true,
-        "range":168,
-        "maxRange":168,
-        "speed":3,
-        "lifetime":56,
-        "damage":6,
-        "pierce": false,
-        "buildingDamageMultiplier": 1,
-        "shootEffect": "shootBig",
-	"splashDamageRadius":20,
-	"splashDamage":14,
-        "width":12,
-	"height":18,
-        "trailColor":"ddd08d",
+        "shootEffect":"sparkShoot",
+        "hitEffect":"pointHit",
+        "maxRange":96,
+        "damage":20,
 
       }
     }
   ],
   "research":"stemp"
 }
+
 
