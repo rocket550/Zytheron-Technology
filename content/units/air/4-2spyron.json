@@ -16,6 +16,47 @@
   "ammoCapacity":30,
   "weapons": [
     {
+"name":"stemp-turret",
+      "x":3,
+      "y":3,
+      "reload":20,
+      "shootSound":"pew",
+      "shootX":0,
+      "shootY":4,
+      "rotate":false,
+      "mirror":true,
+      "recoil":0,
+      "bullet": {
+          "type":"BasicBulletType",
+          "type":"BasicBulletType",
+          "collides":true,
+          "collidesAir":true,
+          "collidesTiles":true,
+          "shootEffect":"shootSmall",
+	  "width":12,
+	  "height":14,
+	  "speed":3,
+          "damage":7,
+	  "splashDamage":7,
+	  "splashDamageRadius":24,
+	  "lifetime":44,
+          "range":128,
+          "maxRange":128,
+          "frontColor":"FA595C",
+	  "backColor":"FA595C",
+          "trailLength":7,
+	  "trailWidth":2.4,
+          "trailColor":"FA595C",
+          "trailInterval":30,
+	  "weaveMag":4,
+          "weaveScale":5,
+	  "homingDelay":4,
+ 	  "homingPower":0.08,
+ 	  "homingRange":8, 
+          "buildingDamageMultiplier":1,
+     }
+    },
+    {
       "name": "spyron-missile",
       "x": 0,
       "y": -4,
@@ -45,26 +86,10 @@
         "width":12,
 	"height":18,
         "trailColor":"ddd08d",
-     }
-    },
-    {
-      "name": "spyron-lancer",
-      "x": 3.2,
-      "y": 1,
-      "reload":24,
-      "shootSound":"laser",
-      "shootX": 0,
-      "shootY": 2,
-      "rotate": false,
-      "mirror": true,
-      "recoil":1.5
-      "bullet": {
-          "type": "LaserBulletType",
-          "damage": 36,
-          "length":100,
-          "colors": ["FF550099", "FF8800AA", "FFDD99FF"]
+
       }
     }
   ],
   "research":"stemp"
 }
+
