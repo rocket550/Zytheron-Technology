@@ -17,17 +17,17 @@
   "weapons": [
     {
 "name":"spyron-turret",
-      "x":3,
+      "x":0,
       "y":3,
-      "reload":20,
+      "reload":40,
       "shootSound":"pew",
       "shootX":0,
       "shootY":4,
       "rotate":false,
-      "mirror":true,
+      "mirror":false,
       "recoil":0,
       "shoot":{
-      "shots": 24,
+      "shots": 10,
       "shootDelay":0
       },
       "bullet": {
@@ -53,11 +53,11 @@
 	  "trailWidth":2.4,
           "trailColor":"FA595C",
           "trailInterval":30,
-	  "weaveMag":4,
-          "weaveScale":5,
+	 // "weaveMag":4,
+   //       "weaveScale":5,
 	  "homingDelay":4,
- 	  "homingPower":0.08,
- 	  "homingRange":8, 
+ 	  "homingPower":0.1,
+ 	  "homingRange":10, 
           "buildingDamageMultiplier":1,
      }
     },
