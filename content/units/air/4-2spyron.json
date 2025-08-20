@@ -40,7 +40,7 @@
 	  	  "width":12,
 	  	  "height":14,
 	  	  "speed":3,
-"innacuracy":8,
+ "inaccuracy": 8,
           "damage":7,
 	  "splashDamage":7,
 	  "splashDamageRadius":24,
