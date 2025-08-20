@@ -26,6 +26,10 @@
       "rotate":false,
       "mirror":true,
       "recoil":0,
+      "shoot":{
+      "shots": 24,
+      "shootDelay":0
+      },
       "bullet": {
           "type":"BasicBulletType",
           "type":"BasicBulletType",
@@ -36,6 +40,7 @@
 	  	  "width":12,
 	  	  "height":14,
 	  	  "speed":3,
+"innacuracy":8,
           "damage":7,
 	  "splashDamage":7,
 	  "splashDamageRadius":24,
