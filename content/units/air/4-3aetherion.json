@@ -57,7 +57,7 @@
       }
       "spawnBullets": [
         {
-          "type": "LaserBulletType",
+          "type":"LaserBulletType",
           "laserAbsorb": false,
           "length": 240,
           "width": 24,
@@ -88,6 +88,5 @@
 
       }
     }
-  ],
-  "research":"4-1stemp"
+  "research":"4-2spyron"
 }
