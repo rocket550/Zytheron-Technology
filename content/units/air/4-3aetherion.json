@@ -16,21 +16,6 @@
   "ammoCapacity":30,
   "weapons": [
     {
-"name":"spyron-turret",
-      "x":0,
-      "y":3,
-      "reload":40,
-      "shootSound":"pew",
-      "shootX":0,
-      "shootY":4,
-      "rotate":false,
-      "mirror":false,
-      "recoil":0,
-      "shoot":{
-      "shots": 10,
-      "shootDelay":0
-      },
-      "bullet": {
 "name":"aetherion-laser",
     "x": 0,
     "y": 0,
@@ -88,5 +73,6 @@
 
       }
     }
+      ],
   "research":"4-2spyron"
 }
