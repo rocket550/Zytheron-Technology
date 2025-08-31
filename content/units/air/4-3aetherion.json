@@ -37,43 +37,38 @@
     "reload": 410,
     "rotate": false,
     "mirror": false,
-    "shootSound":pew,
+    "shootSound":"pew",
     "shoot": {
       "firstShotDelay": 170,
     }
-    "chargeSound": annectodon-charge,
-    "shootStatus": unmoving,
+    "chargeSound": "pew",
     "shootStatusDuration": 240,
     "bullet": {
       "chargeEffect": {
-        "type": SeqEffect
-        "effects": [
-          {
-            "type": WaveEffect,
+            "type": "WaveEffect",
             "sizeFrom": 0,
             "sizeTo": 64,
-            "interp": elasticOut,
+            "interp": "elasticOut",
             "strokeFrom": 0,
             "strokeTo": 3,
-            "colorFrom": e2c585,
-            "colorTo": c2a870,
+            "colorFrom": "FA595C",
+            "colorTo": "FA595C",
             "lifetime": 20,
-          }
-        ]
       }
       "spawnBullets": [
         {
-          "type": LaserBulletType,
+          "type": "LaserBulletType",
           "laserAbsorb": false,
           "length": 240,
           "width": 24,
           "sideAngle": 45,
           "sideLength": 50,
           "sideWidth": 1.5,
-          "colors": [baa164, edc66c, ffffff],
+          "colors":["FA595C"],
           "damage": 100,
           "lifetime": 150,
      }
+      ]
     },
     {
 "type":"PointDefenseWeapon",
