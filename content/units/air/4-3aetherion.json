@@ -31,7 +31,7 @@
       "shootDelay":0
       },
       "bullet": {
-"name: aetherion-laser"
+"name":"aetherion-laser",
     "x": 0,
     "y": 0,
     "reload": 410,
