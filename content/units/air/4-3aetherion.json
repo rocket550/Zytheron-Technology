@@ -2,77 +2,77 @@
   "type": "payload",
   "name": "Aetherion",
   "description": "Its a boat with a mortar for attacking units far away and two flamethrowers to melt near units or buildings",
-  "speed":2,
-  "flying":true,
+  "speed": 2,
+  "flying": true,
   "hitSize": 11,
   "health": 900,
-  "armor":3,
-  "itemCapacity":60,
-  "payloadCapacity":1204,
-  "range":168,
-  "maxRange":168,
-  "accel":0.3,
-  "ammoType":"graphite",
-  "ammoCapacity":30,
+  "armor": 3,
+  "itemCapacity": 60,
+  "payloadCapacity": 1204,
+  "range": 168,
+  "maxRange": 168,
+  "accel": 0.3,
+  "ammoType": "graphite",
+  "ammoCapacity": 30,
   "weapons": [
     {
-"name":"aetherion-laser",
-    "x": 0,
-    "y": 0,
-    "reload": 410,
-    "rotate": false,
-    "mirror": false,
-    "shootSound":"pew",
-    "shoot": {
-      "firstShotDelay": 170,
-    }
-    "chargeSound": "pew",
-    "shootStatusDuration": 240,
-    "bullet": {
-      "chargeEffect": {
-            "type": "WaveEffect",
-            "sizeFrom": 0,
-            "sizeTo": 64,
-            "interp": "elasticOut",
-            "strokeFrom": 0,
-            "strokeTo": 3,
-            "colorFrom": "FA595C",
-            "colorTo": "FA595C",
-            "lifetime": 20,
+      "name": "aetherion-laser",
+      "x": 0,
+      "y": 0,
+      "reload": 410,
+      "rotate": false,
+      "mirror": false,
+      "shootSound": "pew",
+      "shoot": {
+        "firstShotDelay": 170
+      },
+      "chargeSound": "pew",
+      "shootStatusDuration": 240,
+      "bullet": {
+        "chargeEffect": {
+          "type": "WaveEffect",
+          "sizeFrom": 0,
+          "sizeTo": 64,
+          "interp": "elasticOut",
+          "strokeFrom": 0,
+          "strokeTo": 3,
+          "colorFrom": "FA595C",
+          "colorTo": "FA595C",
+          "lifetime": 20
+        },
+        "spawnBullets": [
+          {
+            "type": "LaserBulletType",
+            "laserAbsorb": false,
+            "length": 240,
+            "width": 24,
+            "sideAngle": 45,
+            "sideLength": 50,
+            "sideWidth": 1.5,
+            "colors": ["FA595C"],
+            "damage": 100,
+            "lifetime": 150
+          }
+        ]
       }
-      "spawnBullets": [
-        {
-          "type":"LaserBulletType",
-          "laserAbsorb": false,
-          "length": 240,
-          "width": 24,
-          "sideAngle": 45,
-          "sideLength": 50,
-          "sideWidth": 1.5,
-          "colors":["FA595C"],
-          "damage": 100,
-          "lifetime": 150,
-     }
-      ]
     },
     {
-"type":"PointDefenseWeapon",
-      "name":"spyron-defense-point",
-      "x":10,
-      "y":-2,
-      "mirror":true,
-      "reload":12,
-      "shootSound":"lasershoot",
+      "type": "PointDefenseWeapon",
+      "name": "spyron-defense-point",
+      "x": 10,
+      "y": -2,
+      "mirror": true,
+      "reload": 12,
+      "shootSound": "lasershoot",
       "targetInterval": 5,
       "targetSwitchInterval": 8,
       "bullet": {
-        "shootEffect":"sparkShoot",
-        "hitEffect":"pointHit",
-        "maxRange":96,
-        "damage":20,
-
+        "shootEffect": "sparkShoot",
+        "hitEffect": "pointHit",
+        "maxRange": 96,
+        "damage": 20
       }
     }
-      ],
-  "research":"4-2spyron"
+  ],
+  "research": "4-2spyron"
 }
