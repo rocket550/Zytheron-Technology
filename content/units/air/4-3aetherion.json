@@ -18,12 +18,12 @@
       "name":"aetherion-turret",
       "x":5,
       "y":0,
-      "reload":30,
+      "reload":55,
       "shootSound":"pew",
       "shootX":0,
       "shootY":4,
-      "rotate":true,
-      "mirror":false,
+      "rotate":false,
+      "mirror":true,
       "recoil":0,
 
       "bullet": {
