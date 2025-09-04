@@ -57,7 +57,7 @@
           "frontColor":"FA595C",
 	        "backColor":"FA595C",
           "trailLength":7,
-	        "trailWidth":2.7,
+	        "trailWidth":3,
           "trailColor":"FA595C",
           "trailInterval":30,
           "buildingDamageMultiplier":1,
