@@ -9,70 +9,59 @@
   "armor": 3,
   "itemCapacity": 60,
   "payloadCapacity": 1204,
-  "range": 168,
-  "maxRange": 168,
+  "range": 192,
+  "maxRange": 192,
   "accel": 0.3,
   "ammoType": "graphite",
   "ammoCapacity": 30,
-  "weapons": [
-    {
-      "name": "aetherion-laser",
-      "x": 0,
-      "y": 0,
-      "reload": 410,
-      "rotate": false,
-      "mirror": false,
-      "shootSound": "pew",
-      "shoot": {
-        "firstShotDelay": 170
-      },
-      "chargeSound": "pew",
-      "shootStatusDuration": 240,
+ "weapons":[{
+      "name":"aetherion-turret",
+      "x":5,
+      "y":0,
+      "reload":30,
+      "shootSound":"pew",
+      "shootX":0,
+      "shootY":4,
+      "rotate":true,
+      "mirror":false,
+      "recoil":0,
+
       "bullet": {
-        "chargeEffect": {
-          "type": "WaveEffect",
-          "sizeFrom": 0,
-          "sizeTo": 64,
-          "interp": "elasticOut",
-          "strokeFrom": 0,
-          "strokeTo": 3,
-          "colorFrom": "FA595C",
-          "colorTo": "FA595C",
-          "lifetime": 20
-        },
-        "spawnBullets": [
-          {
-            "type": "LaserBulletType",
-            "laserAbsorb": false,
-            "length": 240,
-            "width": 24,
-            "sideAngle": 45,
-            "sideLength": 50,
-            "sideWidth": 1.5,
-            "colors": ["FA595C"],
-            "damage": 100,
-            "lifetime": 150
-          }
-        ]
+          "type":"BasicBulletType",
+            "chargeEffect":{
+                "type": "MultiEffect",
+                "effects":[{
+                    "type": "WaveEffect",
+		                "followParent":true,
+		                "rotWithParent":true,
+                    "sizeFrom":22,
+                    "sizeTo":0,
+                    "lifetime":40,
+                    "colorFrom":"00000077",
+                    "colorTo":"ED1C24",
+                    }]},
+          "type":"BasicBulletType",
+          "collides":true,
+          "collidesAir":true,
+          "collidesTiles":true,
+          "shootEffect":"shootSmall",
+	        "width":16,
+	        "height":20,
+	        "speed":3,
+          "damage":30,
+	        "splashDamage":10,
+	        "splashDamageRadius":20,
+	        "lifetime":65,
+          "range":192,
+          "maxRange":192,
+          "frontColor":"FA595C",
+	        "backColor":"FA595C",
+          "trailLength":7,
+	        "trailWidth":2.7,
+          "trailColor":"FA595C",
+          "trailInterval":30,
+          "buildingDamageMultiplier":1,
       }
-    },
-    {
-      "type": "PointDefenseWeapon",
-      "name": "spyron-defense-point",
-      "x": 10,
-      "y": -2,
-      "mirror": true,
-      "reload": 12,
-      "shootSound": "lasershoot",
-      "targetInterval": 5,
-      "targetSwitchInterval": 8,
-      "bullet": {
-        "shootEffect": "sparkShoot",
-        "hitEffect": "pointHit",
-        "maxRange": 96,
-        "damage": 20
-      }
-    }
-  ],
+  }],
   "research": "4-2spyron"
 }
