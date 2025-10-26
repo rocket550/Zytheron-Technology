@@ -23,19 +23,26 @@
   "targetGround": true,
   "ammoTypes": {
       "copper":{
-          "type":"MissileBulletType",
+          "type":"BasicBulletType",
           "height":12,
           "width":8,      
-	  "collideFloor":true,
+	  	  "collideFloor":true,
           "inaccuracy":1,
           "damage":15,
           "speed":4,
           "lifetime":42
           "hitSize":10,
           "pierce":false,
-	  "splashDamageRadius":20,
-	  "splashDamage":25,
-	  "ammoMultiplier":2,
+	      "splashDamageRadius":20,
+	  	  "splashDamage":25,
+	  	  "ammoMultiplier":2,
+		  "frontColor":"d89d73",
+	      "backColor":"d89d73",
+          "trailLength":7,
+	      "trailWidth":2.4,
+          "trailColor":"d89d73",
+          "trailInterval":30,
+
       },
           "silicon":{
           "type": "BasicBulletType",
@@ -43,18 +50,25 @@
           "width": 8,
           "reloadMultiplier":1.1,
           "inaccuracy":1,
-	  "collideFloor":true,
+	  	  "collideFloor":true,
           "damage":20,
           "speed": 4,
           "lifetime": 42
           "hitSize": 10,
           "pierce": false,
-	  "splashDamageRadius":30,
-	  "splashDamage":35,
-	  "ammoMultiplier":2,
-	  "homingDelay": 8,
+		  "splashDamageRadius":30,
+		  "splashDamage":35,
+		  "ammoMultiplier":2,
+		  "homingDelay": 8,
           "homingPower": 0.05,
-          "homingRange": 12, 
+          "homingRange": 12,
+		  "frontColor":"8d9097",
+	      "backColor":"8d9097",
+          "trailLength":7,
+	      "trailWidth":2.4,
+          "trailColor":"8d9097",
+          "trailInterval":30,
+
       },
       }
   "requirements":[{
@@ -67,3 +81,4 @@
   "category":"turret",
   "research":"trocket"
 }
+
