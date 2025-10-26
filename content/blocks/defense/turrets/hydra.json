@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Hydra",
-  "description": "Shoots homing missiles to enemy targets",
+  "description": "Shoots homing torpedoes to enemy targets",
   "health":400,
   "reload":40,
   "coolantMultiplier":3,
@@ -19,7 +19,7 @@
   },
   "researchCostMultiplier": 1,
   "inaccuracy": 1,
-  "targetAir": true,
+  "targetAir": false,
   "targetGround": true,
   "ammoTypes": {
       "copper":{
@@ -27,6 +27,7 @@
           "height":12,
           "width":8,      
 	  	  "collideFloor":true,
+		  "collideAir":false,
           "inaccuracy":1,
           "damage":15,
           "speed":4,
@@ -39,10 +40,9 @@
 		  "frontColor":"d89d73",
 	      "backColor":"d89d73",
           "trailLength":7,
-	      "trailWidth":2.4,
+	      "trailWidth":2.1,
           "trailColor":"d89d73",
           "trailInterval":30,
-
       },
           "silicon":{
           "type": "BasicBulletType",
@@ -51,6 +51,7 @@
           "reloadMultiplier":1.1,
           "inaccuracy":1,
 	  	  "collideFloor":true,
+		  "collideAir":false,
           "damage":20,
           "speed": 4,
           "lifetime": 42
@@ -65,7 +66,7 @@
 		  "frontColor":"8d9097",
 	      "backColor":"8d9097",
           "trailLength":7,
-	      "trailWidth":2.4,
+	      "trailWidth":2.1,
           "trailColor":"8d9097",
           "trailInterval":30,
 
@@ -81,4 +82,5 @@
   "category":"turret",
   "research":"trocket"
 }
+
 
