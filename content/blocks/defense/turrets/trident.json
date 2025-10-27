@@ -1,9 +1,9 @@
 {
   "type": "ItemTurret",
-  "name": "Hydra2",
+  "name": "Trident",
   "description": "Shoots homing torpedoes on the water to enemy targets",
   "health":1600,
-  "reload":25,
+  "reload":35,
   "coolantMultiplier":3,
   "range": 192,
   "size": 2,
@@ -12,6 +12,7 @@
   "shootEffect": "shootSmall",
   "ammoPerShot": 1,
   "rotateSpeed": 3,
+  "placeableLiquid":true,
   "consumes": {
       "coolant": {
           "amount": 0.1
@@ -24,8 +25,8 @@
   "shoot":{
       "type":"ShootBarrel",
       "barrels":[
-        1, 1, 0,
-        -1, 1, 0,
+        4, 1, 0,
+        -4, 1, 0,
       ],
       "barrelOffset":1,
       "shots":1,
