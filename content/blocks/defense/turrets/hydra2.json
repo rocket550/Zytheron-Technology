@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Hydra2",
-  "description": "Shoots homing torpedoes to enemy targets",
+  "description": "Shoots homing torpedoes on the water to enemy targets",
   "health":1600,
   "reload":25,
   "coolantMultiplier":3,
