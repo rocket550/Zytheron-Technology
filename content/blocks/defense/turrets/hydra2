@@ -1,0 +1,95 @@
+{
+  "type": "ItemTurret",
+  "name": "Hydra2",
+  "description": "Shoots homing torpedoes to enemy targets",
+  "health":1600,
+  "reload":25,
+  "coolantMultiplier":3,
+  "range": 192,
+  "size": 2,
+  "shootY": 20,
+  "shootSound": "missile",
+  "shootEffect": "shootSmall",
+  "ammoPerShot": 1,
+  "rotateSpeed": 3,
+  "consumes": {
+      "coolant": {
+          "amount": 0.1
+      }
+  },
+  "researchCostMultiplier": 1,
+  "inaccuracy": 1,
+  "targetAir": false,
+  "targetGround": true,
+  "shoot":{
+      "type":"ShootBarrel",
+      "barrels":[
+        1, 1, 0,
+        -1, 1, 0,
+      ],
+      "barrelOffset":1,
+      "shots":1,
+    },
+  "ammoTypes": {
+      "copper":{
+          "type":"BasicBulletType",
+          "height":12,
+          "width":8,      
+	  	  "collideFloor":true,
+		  "collidesAir":false,
+          "inaccuracy":1,
+          "damage"20,
+          "speed":4,
+          "lifetime":49,
+          "hitSize":10,
+          "pierce":false,
+	      "splashDamageRadius":20,
+	  	  "splashDamage":30,
+	  	  "ammoMultiplier":2,
+		  "frontColor":"d89d73",
+	      "backColor":"d89d73",
+          "trailLength":7,
+	      "trailWidth":2,
+          "trailColor":"d89d73",
+          "trailInterval":30,
+      },
+          "silicon":{
+          "type": "BasicBulletType",
+          "height": 12,
+          "width": 8,
+          "reloadMultiplier":1.1,
+          "inaccuracy":1,
+	  	  "collideFloor":true,
+		  "collidesAir":false,
+          "damage":25,
+          "speed": 4,
+          "lifetime": c,
+          "hitSize": 10,
+          "pierce": false,
+		  "splashDamageRadius":30,
+		  "splashDamage":40,
+		  "ammoMultiplier":2,
+		  "homingDelay": 8,
+          "homingPower": 0.05,
+          "homingRange": 12,
+		  "frontColor":"8d9097",
+	      "backColor":"8d9097",
+          "trailLength":7,
+	      "trailWidth":2,
+          "trailColor":"8d9097",
+          "trailInterval":30,
+
+      },
+      }
+  "requirements":[{
+      "item": "silicon",
+      "amount":20
+    },{
+      "item":"metaglass",
+      "amount": 15
+    }],
+  "category":"turret",
+  "research":"trocket"
+}
+
+
