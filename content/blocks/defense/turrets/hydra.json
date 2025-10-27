@@ -12,6 +12,7 @@
   "shootEffect": "shootSmall",
   "ammoPerShot": 1,
   "rotateSpeed": 4.5,
+  "placeableLiquid":true,
   "consumes": {
       "coolant": {
           "amount": 0.1
@@ -82,6 +83,7 @@
   "category":"turret",
   "research":"trocket"
 }
+
 
 
 
