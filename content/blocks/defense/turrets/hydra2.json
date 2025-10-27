@@ -38,7 +38,7 @@
 	  	  "collideFloor":true,
 		  "collidesAir":false,
           "inaccuracy":1,
-          "damage"20,
+          "damage":20,
           "speed":4,
           "lifetime":49,
           "hitSize":10,
