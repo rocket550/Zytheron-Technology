@@ -48,7 +48,7 @@
           "maxRange":384,
           "damage":20,
 		  "splashDamageRadius":32,
-		  "splashDamage"80,
+		  "splashDamage":80,
 	 	  "width":10,
 	 	  "height":14,
 	 	  "speed":9,
