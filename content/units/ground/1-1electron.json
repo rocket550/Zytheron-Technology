@@ -47,16 +47,17 @@
           "collides":true,
           "collidesAir":true,
           "collidesTiles":true,
-	  "pierceCap":4,
+	      "pierceCap":4,
           "range":96,
           "maxRange":96,
           "damage":22,
           "pierce":true,
-	  "lightningLength":21,
+	      "lightningLength":21,
           "buildingDamageMultiplier": 1,
           "shootEffect":"lightningShoot",
-	  "status":"shocked",
+	      "status":"shocked",
       }
   }],
   "research":"1electric-factory"
 }
+
