@@ -5,7 +5,7 @@
  "category":"logic",
  "type":"LogicBlock",
  "health":40,
- "research":"combustion-generator"
+ "research":"core-shard"
  "range":40,
  "instructionsPerTick":1,
  "maxInstructionsPerTick":1,
